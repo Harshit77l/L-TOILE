@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#a39a91", "surface-bright": "#fbf9f5", "surface": "#fbf9f5", "on-primary-container": "#443000", "on-tertiary-fixed": "#201b15", "on-primary-fixed-variant": "#5b430a", "secondary-container": "#e2dfde", "on-secondary-fixed-variant": "#474646", "on-secondary-container": "#636262", "outline": "#7f7668", "on-tertiary": "#ffffff", "inverse-surface": "#30312e", "secondary-fixed": "#e5e2e1", "primary-fixed-dim": "#e6c27e", "on-background": "#1b1c1a", "on-primary-fixed": "#261900", "on-secondary": "#ffffff", "tertiary": "#645d56", "surface-dim": "#dbdad6", "surface-variant": "#e4e2de", "on-tertiary-fixed-variant": "#4c463f", "on-surface-variant": "#4d4639", "secondary": "#5f5e5e", "surface-container-low": "#f5f3ef", "surface-container-high": "#eae8e4", "error-container": "#ffdad6", "surface-tint": "#755a21", "secondary-fixed-dim": "#c8c6c5", "tertiary-fixed": "#ece1d7", "on-secondary-fixed": "#1c1b1b", "error": "#ba1a1a", "primary-container": "#b89758", "on-error": "#ffffff", "inverse-primary": "#e6c27e", "on-error-container": "#93000a", "surface-container": "#efeeea", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "primary-fixed": "#ffdea4", "surface-container-highest": "#e4e2de", "on-surface": "#1b1c1a", "inverse-on-surface": "#f2f0ed", "on-tertiary-container": "#38322c", "tertiary-fixed-dim": "#cfc5bb", "outline-variant": "#d1c5b5", "primary": "#755a21", "background": "#fbf9f5" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "gutter-mobile": "1rem", "space-sm": "0.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-2xl": "4rem", "space-md": "1rem", "space-3xl": "6rem", "margin": "3rem" }, "fontFamily": { "label-md": ["Inter"], "body-sm": ["Inter"], "display-hero-mobile": ["Playfair Display"], "body-md": ["Inter"], "headline-lg": ["Playfair Display"], "label-caps": ["Inter"], "headline-md": ["Playfair Display"], "title-editorial": ["Playfair Display"], "body-lg": ["Inter"], "display-hero": ["Playfair Display"], "headline-sm": ["Playfair Display"], "label-sm": ["Inter"], "headline-lg-mobile": ["Playfair Display"] }, "fontSize": { "label-md": ["13px", { "lineHeight": "16px", "fontWeight": "500" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "display-hero-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-caps": ["11px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "600" }], "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }], "title-editorial": ["18px", { "lineHeight": "24px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "28px", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "14px", "fontWeight": "500" }], "headline-lg-mobile": ["28px", { "lineHeight": "34px", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(20,20,20,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-gutter flex items-center justify-between gap-6"><div class="flex items-center gap-4 shrink-0"><a class="flex flex-col" data-path="inspiration" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface leading-none">L'ÉTOILE</span><span class="font-label-caps text-label-caps text-on-surface-variant tracking-[0.2em] mt-1">ATELIER &amp; CURATION</span></a></div><nav class="hidden xl:flex items-center gap-8" data-active-classes="text-on-surface font-semibold"><a aria-current="page" class="transition-colors text-on-surface font-semibold" data-path="inspiration" href="#">INSPIRATION</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="galleries" href="#">GALLERIES</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="rentals-categories" href="#">RENTALS / CATEGORIES</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="journal" href="#">JOURNAL</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">CONTACT</a></nav><div class="flex items-center gap-4 shrink-0"><div class="relative hidden lg:flex items-center"><span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[18px] pointer-events-none">search</span><input class="w-64 h-10 pl-10 pr-4 rounded-full bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm shadow-[0_1px_4px_rgba(20,20,20,0.03)] focus:outline-none focus:ring-1 focus:ring-primary-container transition-all" placeholder="Search arches, chandeliers, seating..." type="search"/></div><a class="hidden sm:inline-flex items-center justify-center px-4 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="client-portal" href="#">Log In</a><a class="inline-flex items-center gap-2.5 h-10 px-5 rounded-full bg-inverse-surface text-inverse-on-surface font-label-md text-label-md shadow-[0_2px_12px_rgba(20,20,20,0.12)] hover:bg-primary-container hover:text-on-primary transition-all" data-path="moodboard-to-quote" href="#"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span><span>Moodboard-to-Quote</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<section class="relative w-full overflow-hidden bg-surface-container-low px-gutter py-space-2xl md:py-space-3xl">
+<div class="max-w-[1440px] mx-auto flex flex-col items-center text-center relative z-10">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface shadow-sm mb-6">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-[0.2em]">Seasonal Curations • Edition No. 24</span>
+</div>
+<h1 class="font-display-hero text-display-hero md:text-[68px] text-on-surface tracking-tight max-w-4xl mx-auto leading-[1.08] mb-6">
+        The Inspiration Atelier
+      </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10">
+        Curated aesthetic narratives, seasonal palettes, and textural concepts curated by our principal designers.
+      </p>
+<!-- Category Filter Pills Bar -->
+<div class="w-full flex items-center justify-center overflow-x-auto pb-4 pt-1 no-scrollbar gap-2.5 max-w-5xl">
+<button class="filter-pill active px-5 py-2.5 rounded-full bg-inverse-surface text-inverse-on-surface font-label-md text-label-md transition-all whitespace-nowrap shadow-sm hover:scale-105" data-filter="all">
+          All Narratives
+        </button>
+<button class="filter-pill px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md transition-all whitespace-nowrap shadow-sm hover:text-on-surface hover:bg-surface-container" data-filter="villa">
+          Old World Villa
+        </button>
+<button class="filter-pill px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md transition-all whitespace-nowrap shadow-sm hover:text-on-surface hover:bg-surface-container" data-filter="modernist">
+          Minimalist Modernist
+        </button>
+<button class="filter-pill px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md transition-all whitespace-nowrap shadow-sm hover:text-on-surface hover:bg-surface-container" data-filter="gilded">
+          Gilded Romance
+        </button>
+<button class="filter-pill px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md transition-all whitespace-nowrap shadow-sm hover:text-on-surface hover:bg-surface-container" data-filter="provence">
+          Coastal Provence
+        </button>
+<button class="filter-pill px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md transition-all whitespace-nowrap shadow-sm hover:text-on-surface hover:bg-surface-container" data-filter="greenhouse">
+          Enchanted Greenhouse
+        </button>
+<button class="filter-pill px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md transition-all whitespace-nowrap shadow-sm hover:text-on-surface hover:bg-surface-container" data-filter="tuscan">
+          Autumnal Tuscan
+        </button>
+</div>
+</div>
+</section>
+<!-- Hero Editorial Spotlight -->
+<section class="max-w-[1440px] mx-auto px-gutter -mt-8 relative z-20 w-full mb-space-3xl">
+<div class="bg-surface-container-lowest rounded-xl p-6 lg:p-10 shadow-xl relative overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<!-- Visual Composition (Split Showcase) -->
+<div class="lg:col-span-7 grid grid-cols-12 gap-4">
+<div class="col-span-8 overflow-hidden rounded-lg relative group h-[480px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Grand French chateau wedding reception interior with vaulted ceilings, cascading gilded chandeliers, crystal candelabras on an imperial banquet table, and delicate ivory garden roses. Editorial architectural composition with natural afternoon golden light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe6EKrX3PH00PA_W_ZbHaCE3YyMd4Vkwh95UELrMM6Z4TYp2ACfKwMMxaYMCVlpKz8SfjxjjUAHKT8pozgykLEMh7EoXEoObSm6rETWeKyGwZ7UzleY2lR4dknJIHDi6KiyU-ZbNI-MCJMZ5gYOAZ_8dl38ekgp1b4lE_ynrq9OjfwdEwR9HQLLyRO5QzcZdDJJyJ3wmurYtCVl7wY1_uCZYuNXFiQVaOlMrf8tIzxJOJoKgBSiF7-yQ"/>
+<div class="absolute top-4 left-4 bg-surface/90 backdrop-blur-md px-3.5 py-1.5 rounded-full shadow-sm">
+<span class="font-label-caps text-label-caps text-on-surface tracking-widest uppercase">Spotlight 01</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 bg-inverse-surface/85 backdrop-blur-md rounded-lg p-3.5 text-inverse-on-surface flex items-center justify-between">
+<div>
+<p class="font-headline-sm text-headline-sm tracking-tight text-surface-bright">Château de Vaux-le-Vicomte</p>
+<p class="font-label-sm text-label-sm text-surface-variant">Grand Orangery • 220 Guests</p>
+</div>
+<span class="material-symbols-outlined text-primary-fixed-dim">verified</span>
+</div>
+</div>
+<div class="col-span-4 flex flex-col gap-4 h-[480px]">
+<div class="h-1/2 rounded-lg overflow-hidden relative group">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Macro detail of hand-embroidered French linen with baroque scalloped edge, paired with heirloom gold-plated cutlery and vintage porcelain plateware on marble." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1OChjUPo0GWOyyxmZEXJUTuETonjahhl0vFZfLparQs7TYqet89y6eGnZu7yUGekpcWOIr4kIShlye6jX-VY19982i_izE7isinUcE2Z7461GQO7sOzntdqI7ebCKik7-h7xqmPXNP0_Ke1PwtMnreUgkiTY9Bs82CAOWrgWfICB54noCh4Wr2bhdMFuO2iRYLCbwmJNOwA2ola6OJWCVy4wsviHxlMdg_bf7n60xEJMaAZXYkdeyCw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/60 to-transparent flex items-end p-3">
+<span class="font-label-caps text-label-caps text-surface-bright uppercase tracking-wider">Tactile Linen Spec</span>
+</div>
+</div>
+<div class="h-1/2 rounded-lg overflow-hidden relative group">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Floristry close-up of antique garden roses, white cyclamen, and cascading jasmine vines wrapped around a gilded brass candelabra." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDChIsCklAkK0hlFg8uQh51IARhYk3o-j8Qi7noZJ9CyPBXwB2leNW0Y-ymsr8NpTGjX5kGO2Asu_kG5-pTaGjc0SXzsvkrx-NRHKe2qcoDGzaMR33v_xXJV52I558AUGxwvtRvvVyzCGTaViBT6xy7jX5aIpnlD8k1hcsfdU7EdBFrC6h6GoGUWX23DSvD0FmYwqtf32uLw2T4xs1gBjKXRzMgL-6kn75YoasWUM9-oaUB7xdYJAwvXw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/60 to-transparent flex items-end p-3">
+<span class="font-label-caps text-label-caps text-surface-bright uppercase tracking-wider">Botanical Profile</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Narrative Editorial & Spec Panel -->
+<div class="lg:col-span-5 flex flex-col justify-between h-full">
+<div>
+<div class="flex items-center gap-2 mb-3">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-[0.2em]">Haute Couture Curation</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Autumn / Winter Masterwork</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface leading-tight mb-4">
+              L'Impériale Château Monograph
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+              A profound harmony of 17th-century architectural grandeur and ephemeral floristry. Conceived for sweeping gallery spaces requiring heightened drama, deep patinated brass elements, and gossamer-soft textures.
+            </p>
+<!-- Curated Specifications Accordion / Chips -->
+<div class="space-y-4 mb-8">
+<div class="bg-surface-container-low rounded-lg p-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider block mb-2.5">Chromatic Foundation</span>
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-[#E5DFD3] shadow-inner inline-block" title="Alabaster Stone"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Alabaster</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-[#B89758] shadow-inner inline-block" title="Burnished Gold"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Burnished Gold</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-[#2C332D] shadow-inner inline-block" title="Cypress Noir"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Cypress Noir</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-[#E8DDD4] shadow-inner inline-block" title="Blush Bisque"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Bisque</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-surface-container-low rounded-lg p-3.5">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider block mb-1">Floral Varieties</span>
+<p class="font-body-sm text-body-sm text-on-surface font-medium truncate">David Austin Roses, Pieris, White Clematis</p>
+</div>
+<div class="bg-surface-container-low rounded-lg p-3.5">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider block mb-1">Linen Specs</span>
+<p class="font-body-sm text-body-sm text-on-surface font-medium truncate">Raw Belgian Flax &amp; Pure Organza Sheer</p>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-2 flex flex-col sm:flex-row items-center gap-4">
+<button class="w-full sm:w-auto flex-1 h-12 px-6 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary-container hover:text-on-primary transition-all flex items-center justify-center gap-2 shadow-md" onclick="addToQuote('L\'Impériale Château Monograph', 24)">
+<span class="material-symbols-outlined text-[20px]">auto_fix_high</span>
+<span class="font-label-md text-label-md">Load into Moodboard Builder</span>
+</button>
+<button class="w-full sm:w-auto h-12 px-6 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-all flex items-center justify-center gap-2" onclick="previewCollection('chateau')">
+<span class="material-symbols-outlined text-[20px]">view_in_ar</span>
+<span class="font-label-md text-label-md">Interactive 3D Preview</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Narrative Grid Intro Bar -->
+<section class="max-w-[1440px] mx-auto px-gutter w-full mb-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-4">
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-[0.2em] block mb-1">Curated Series</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Thematic Concept Portfolios</h3>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Showing <strong class="text-on-surface">6 Signature Master Concepts</strong></span>
+<div class="w-px h-4 bg-surface-container-highest"></div>
+<button class="font-label-sm text-label-sm text-primary hover:underline flex items-center gap-1">
+<span>Sort: Curated Flow</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Curated Narrative Grid: Masonry/Mosaic 6 Inspiration Collections -->
+<section class="max-w-[1440px] mx-auto px-gutter w-full mb-space-3xl">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start" id="narratives-grid">
+<!-- Card 1: Venetian Splendor -->
+<article class="narrative-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col" data-category="gilded">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Venetian Palazzo wedding decor with antique amber Murano glass chandeliers, deep crimson velvet drapery, polished Venetian plaster walls, and warm ambient candlelight reflecting on terrazzo." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRm0yKe-v-iSZyfdIld1gXjLaZ4FQiDhlVrrELlWkxK-APDWKsohkPS3zLdFXDhJf1Hf9Ald-0eFNiOQN181Uz2rQsXYTRjkTUlX3q1xzhUszUfZG6grh2PmL44DYqT9aktLvAUFyBDa0d5k1eD05KRhV2KVdb3GgTOrvUb_MQRd-AMDwN9KHOoc_Yp54-HDARIc3WNvaJ0DbPf-8QYhE94pQYIPGfNV8aOS1o2LZ-PeU2gqfeiecfTg"/>
+<div class="absolute inset-0 bg-inverse-surface/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-[2px] flex flex-col justify-between p-6">
+<div class="flex justify-end">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 text-on-surface font-label-caps text-label-caps tracking-wider uppercase">18 Atelier Items</span>
+</div>
+<div class="flex flex-col gap-2.5 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full py-3 rounded-full bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-all shadow-md" onclick="openDrawer('Venetian Splendor')">
+                View Concept Board (18 Items)
+              </button>
+<button class="w-full py-3 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all flex items-center justify-center gap-2" onclick="addToQuote('Venetian Splendor', 18)">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to My Quote</span>
+</button>
+</div>
+</div>
+<div class="absolute top-4 left-4 bg-surface-bright/90 backdrop-blur-sm px-3 py-1 rounded-full pointer-events-none group-hover:opacity-0 transition-opacity">
+<span class="font-label-caps text-label-caps text-on-surface uppercase">Curated No. 01</span>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">Gilded Romance</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Palazzo Gritti</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Venetian Splendor</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-4">
+              Hand-blown Murano glass fixtures, hand-pleated opera velvet drapes, and tiered brass taper stands create unmatched Baroque intimacy.
+            </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low -mx-6 -mb-6 p-6">
+<div class="flex -space-x-1.5">
+<span class="w-4 h-4 rounded-full bg-[#722F37] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#B89758] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#D4AF37] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#1C1A17] ring-2 ring-surface"></span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Palazzo Signature</span>
+</div>
+</div>
+</article>
+<!-- Card 2: Provence Lavender & Stone -->
+<article class="narrative-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col" data-category="provence">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="French countryside bastide wedding ceremony setting with pale limestone masonry, wrought iron garden chairs, raw linen canopies, wild lavender sprigs, and olive tree branches under soft Provençal sun." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO3i_kt2biEuV_wYoS0h3YJKcrGJH7vNSuJwxRxeuHQowThYy49DqI8aLQvo1WNQDUAg2arw7S9hRnoI7ODGkdT1KZjY1gRNGS1f0DDIyxOVttO2gC6fNvYUN1Uhy4ISg0ffTgq9UaFLnY_r0WaK464UFzalFaxB8siqneUuX-5zEnPFibde2AYmHqtnbO8PSGSXNWpXkhNZFqZwcnd6EaJn_wPbuiWudFyG43j2uyGB0DXgW1PSlGxg"/>
+<div class="absolute inset-0 bg-inverse-surface/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-[2px] flex flex-col justify-between p-6">
+<div class="flex justify-end">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 text-on-surface font-label-caps text-label-caps tracking-wider uppercase">22 Atelier Items</span>
+</div>
+<div class="flex flex-col gap-2.5 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full py-3 rounded-full bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-all shadow-md" onclick="openDrawer('Provence Lavender &amp; Stone')">
+                View Concept Board (22 Items)
+              </button>
+<button class="w-full py-3 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all flex items-center justify-center gap-2" onclick="addToQuote('Provence Lavender &amp; Stone', 22)">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to My Quote</span>
+</button>
+</div>
+</div>
+<div class="absolute top-4 left-4 bg-surface-bright/90 backdrop-blur-sm px-3 py-1 rounded-full pointer-events-none group-hover:opacity-0 transition-opacity">
+<span class="font-label-caps text-label-caps text-on-surface uppercase">Curated No. 02</span>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">Coastal Provence</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Luberon Valley</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Provence Lavender &amp; Stone</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-4">
+              Sun-bleached French limestone accents, organic undyed silk runners, and sculptural arches woven with wild botanical textures.
+            </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low -mx-6 -mb-6 p-6">
+<div class="flex -space-x-1.5">
+<span class="w-4 h-4 rounded-full bg-[#E5DFD4] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#9E90A2] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#8A9A86] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#FAF7F2] ring-2 ring-surface"></span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Botanical Provençal</span>
+</div>
+</div>
+</article>
+<!-- Card 3: Manhattan Penthouse Noir -->
+<article class="narrative-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col" data-category="modernist">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="High-end metropolitan penthouse dinner setting at twilight with solid black onyx tableware, polished architectural art deco brass candelabras, tall cascading white phalaenopsis orchids, and New York skyline glow." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFv88k8EzgFWGoaa5j1XuKdtPtphy4cGPilQAzjjuuvJVOFegOa5BITxKkBimwQ0fFkChijum8G0i27RQ4ryxmYSfPxcFcz6UeaFFi7t3t013djSz_S7wD5DsRpl3_sTOficvOGLl4HXW_BSLicaf-N5lp7EQYJLwG9vrjkDwqHfW8mxFbYkcMedhSggjsHaSFxqpY_nPkxy9tdsep4SpYoKFns1BirQGi2TUzdhkOmxW5PWOyjf0xEw"/>
+<div class="absolute inset-0 bg-inverse-surface/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-[2px] flex flex-col justify-between p-6">
+<div class="flex justify-end">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 text-on-surface font-label-caps text-label-caps tracking-wider uppercase">16 Atelier Items</span>
+</div>
+<div class="flex flex-col gap-2.5 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full py-3 rounded-full bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-all shadow-md" onclick="openDrawer('Manhattan Penthouse Noir')">
+                View Concept Board (16 Items)
+              </button>
+<button class="w-full py-3 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all flex items-center justify-center gap-2" onclick="addToQuote('Manhattan Penthouse Noir', 16)">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to My Quote</span>
+</button>
+</div>
+</div>
+<div class="absolute top-4 left-4 bg-surface-bright/90 backdrop-blur-sm px-3 py-1 rounded-full pointer-events-none group-hover:opacity-0 transition-opacity">
+<span class="font-label-caps text-label-caps text-on-surface uppercase">Curated No. 03</span>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">Minimalist Modernist</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tribeca Skyloft</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Manhattan Penthouse Noir</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-4">
+              Geometrically precise Art Deco brass pedestals, midnight onyx tableware, and minimalist cascades of architectural white orchids.
+            </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low -mx-6 -mb-6 p-6">
+<div class="flex -space-x-1.5">
+<span class="w-4 h-4 rounded-full bg-[#121212] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#CFB53B] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#FFFFFF] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#4A4846] ring-2 ring-surface"></span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Metropolitan Lux</span>
+</div>
+</div>
+</article>
+<!-- Card 4: English Garden Reverie -->
+<article class="narrative-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col" data-category="greenhouse">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Romantic Cotswolds manor glasshouse reception with lush blush garden peonies, antique wrought iron conservatory frames, moss-covered weathered stone urns, and crystal stemmed glassware." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGKSpjNNFuIBPlUw9QVdq_Qw38KSzdctg01l3vLd9PY3FUfYnqYEzXhOxMlQmARwb4kImD4RLW5LwgyWqdMdJbQtIoxbh4xwi2paN3aTzJsMYcHDlFqcVbtGbWxWE3c-CjYICkym4ZkKvjZGIINLwb_SsmIMeVFmp-OLtQRoYVC2KdJ2sQWd3MfYdkRyC-BsNe1OKZSgGNO0jCM76HXl4cZSXFRSZku0vatZXeHxbvvHqCEFyti2C3Qw"/>
+<div class="absolute inset-0 bg-inverse-surface/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-[2px] flex flex-col justify-between p-6">
+<div class="flex justify-end">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 text-on-surface font-label-caps text-label-caps tracking-wider uppercase">26 Atelier Items</span>
+</div>
+<div class="flex flex-col gap-2.5 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full py-3 rounded-full bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-all shadow-md" onclick="openDrawer('English Garden Reverie')">
+                View Concept Board (26 Items)
+              </button>
+<button class="w-full py-3 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all flex items-center justify-center gap-2" onclick="addToQuote('English Garden Reverie', 26)">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to My Quote</span>
+</button>
+</div>
+</div>
+<div class="absolute top-4 left-4 bg-surface-bright/90 backdrop-blur-sm px-3 py-1 rounded-full pointer-events-none group-hover:opacity-0 transition-opacity">
+<span class="font-label-caps text-label-caps text-on-surface uppercase">Curated No. 04</span>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">Enchanted Greenhouse</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cotswolds Manor</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">English Garden Reverie</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-4">
+              Overgrown blushes of Sarah Bernhardt peonies, vintage wrought iron, and weathered stone vessels for enduring pastoral romance.
+            </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low -mx-6 -mb-6 p-6">
+<div class="flex -space-x-1.5">
+<span class="w-4 h-4 rounded-full bg-[#E8B4B8] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#6B705C] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#DDBEA9] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#F0EAD6] ring-2 ring-surface"></span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Pastoral Archive</span>
+</div>
+</div>
+</article>
+<!-- Card 5: Mediterranean Sunken Terrace -->
+<article class="narrative-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col" data-category="tuscan">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Sun-drenched Tuscan villa terrace overlooking olive groves with handcrafted terracotta amphorae, woven linen canopies, custom wrought iron chandeliers, and olive branch garlands." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgBgjNXKM1lbxXkDblHUbhqPD9Gevp-KTJmCnDZ15G0Rn6RuoO9FVtYZxhArTlXmoMvcqX52v6OF7Mu0fXYxinnks2D47-ScokF1jLwU_ccQTXDMD9KEOLmPYQn00_AQWpAbddmhKXUk1nGPlImqAUQEpPYFpeIMOE53nJYVl9zHTTot2jq9hI7sukZ8Jam-YbnxlfUMOqafh5MgzKcTyT4mU9icldnGv1dLCcHuuwSyqzak9CXgFaqA"/>
+<div class="absolute inset-0 bg-inverse-surface/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-[2px] flex flex-col justify-between p-6">
+<div class="flex justify-end">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 text-on-surface font-label-caps text-label-caps tracking-wider uppercase">20 Atelier Items</span>
+</div>
+<div class="flex flex-col gap-2.5 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full py-3 rounded-full bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-all shadow-md" onclick="openDrawer('Mediterranean Sunken Terrace')">
+                View Concept Board (20 Items)
+              </button>
+<button class="w-full py-3 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all flex items-center justify-center gap-2" onclick="addToQuote('Mediterranean Sunken Terrace', 20)">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to My Quote</span>
+</button>
+</div>
+</div>
+<div class="absolute top-4 left-4 bg-surface-bright/90 backdrop-blur-sm px-3 py-1 rounded-full pointer-events-none group-hover:opacity-0 transition-opacity">
+<span class="font-label-caps text-label-caps text-on-surface uppercase">Curated No. 05</span>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">Autumnal Tuscan</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Val d'Orcia Estate</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Mediterranean Sunken Terrace</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-4">
+              Hand-thrown Impruneta terracotta pots, silvery centenary olive boughs, and custom hand-hammered iron candelabras for al fresco evenings.
+            </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low -mx-6 -mb-6 p-6">
+<div class="flex -space-x-1.5">
+<span class="w-4 h-4 rounded-full bg-[#C86D51] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#7D8471] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#D8A47F] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#3D3A37] ring-2 ring-surface"></span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Tuscan Hearth</span>
+</div>
+</div>
+</article>
+<!-- Card 6: Brutalist Botanical -->
+<article class="narrative-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col" data-category="modernist">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Architectural modern event space with fluted cast concrete urns, massive dark green sculptural monstera foliage, raw bronze charger plates, and minimalist floating pin lights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1l_FH1FDGmxQmiYg6Dby3pjFBt2gmch6vPlH0-nyyuStJV94hlB5116FFzlKHdo533le0y7w1ML7DFs5m3JcbRsicugDJo1oNo_SNietwKzSsKepTI4Bf6EuKYaA2dgid1gqtJ4A-X4F5EwAfLq-X51xT6n-K1lO2_rSN6pSnrJUsRVyJBZ-gP7lEtsg28cYZj-_79efDH-rv4lXMOhiJcicZEaAVOXtCP6FtnKQvl3mG4EvbOe-ywg"/>
+<div class="absolute inset-0 bg-inverse-surface/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-[2px] flex flex-col justify-between p-6">
+<div class="flex justify-end">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 text-on-surface font-label-caps text-label-caps tracking-wider uppercase">15 Atelier Items</span>
+</div>
+<div class="flex flex-col gap-2.5 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full py-3 rounded-full bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-all shadow-md" onclick="openDrawer('Brutalist Botanical')">
+                View Concept Board (15 Items)
+              </button>
+<button class="w-full py-3 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all flex items-center justify-center gap-2" onclick="addToQuote('Brutalist Botanical', 15)">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to My Quote</span>
+</button>
+</div>
+</div>
+<div class="absolute top-4 left-4 bg-surface-bright/90 backdrop-blur-sm px-3 py-1 rounded-full pointer-events-none group-hover:opacity-0 transition-opacity">
+<span class="font-label-caps text-label-caps text-on-surface uppercase">Curated No. 06</span>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">Minimalist Modernist</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Kyoto Museum Pavilion</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Brutalist Botanical</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-4">
+              Cast concrete geometric pedestals paired with oversized monstera leaves, brutalist bronze chargers, and strict spatial discipline.
+            </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low -mx-6 -mb-6 p-6">
+<div class="flex -space-x-1.5">
+<span class="w-4 h-4 rounded-full bg-[#9E9E9E] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#2F4F2F] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#8C6D46] ring-2 ring-surface"></span>
+<span class="w-4 h-4 rounded-full bg-[#1A1A1A] ring-2 ring-surface"></span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Sculptural Form</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Editorial Atelier Craftsmanship Feature -->
+<section class="max-w-[1440px] mx-auto px-gutter w-full mb-space-3xl">
+<div class="bg-surface-container rounded-xl p-8 lg:p-14 relative overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-5">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-[0.2em] block mb-3">Bespeak The Unimagined</span>
+<h3 class="font-headline-lg text-headline-lg text-on-surface mb-6 leading-tight">
+            From Inspiration Palette to Verified Production
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">
+            Every narrative in our atelier is backed by our master rental archive: curated arches, handmade ceramics, vintage brass, and bespoke textiles ready for direct reservation and full white-glove transport.
+          </p>
+<div class="flex items-center gap-6">
+<div>
+<p class="font-display-hero-mobile text-display-hero-mobile text-on-surface leading-none mb-1">94%</p>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Proprietary In-Stock Items</p>
+</div>
+<div class="w-px h-10 bg-outline-variant"></div>
+<div>
+<p class="font-display-hero-mobile text-display-hero-mobile text-on-surface leading-none mb-1">48h</p>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Rapid Proposal Turnaround</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-4">
+<div class="bg-surface-container-lowest p-5 rounded-lg text-center flex flex-col items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary text-[32px] mb-2">palette</span>
+<span class="font-title-editorial text-title-editorial text-on-surface mb-1">Color Matching</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pantone &amp; raw pigment yarn cards</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-lg text-center flex flex-col items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary text-[32px] mb-2">chair</span>
+<span class="font-title-editorial text-title-editorial text-on-surface mb-1">Fine Furnishings</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Handcrafted dining &amp; salon seating</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-lg text-center flex flex-col items-center justify-center shadow-sm col-span-2 sm:col-span-1">
+<span class="material-symbols-outlined text-primary text-[32px] mb-2">local_shipping</span>
+<span class="font-title-editorial text-title-editorial text-on-surface mb-1">White-Glove Fleet</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Temperature-controlled pan-European transport</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Drawer (Hidden Modal for Concept Board Item Details) -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 flex justify-end" id="concept-drawer">
+<div class="w-full max-w-xl bg-surface h-full shadow-2xl transform translate-x-full transition-transform duration-500 flex flex-col p-8 overflow-y-auto" id="drawer-panel">
+<div class="flex items-center justify-between pb-6 border-b border-surface-container-highest">
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest block mb-1">Editorial Concept Board</span>
+<h4 class="font-headline-md text-headline-md text-on-surface" id="drawer-title">Curated Narrative</h4>
+</div>
+<button class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-highest transition-colors" onclick="closeDrawer()">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="py-6 space-y-6 flex-1">
+<p class="font-body-md text-body-md text-on-surface-variant">
+          This curation unites 18 distinct inventory pieces spanning artisanal cutlery, raw linen runners, antique candlesticks, and bespoke architectural arches.
+        </p>
+<div class="space-y-3">
+<span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider block">Included Atelier Items</span>
+<div class="flex items-center gap-4 p-3.5 rounded-lg bg-surface-container-lowest shadow-sm">
+<div class="w-14 h-14 rounded bg-surface-container-high overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Handcrafted brass candleholder with distressed patina finish." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-FXpwkbT9uGXUG3K8RpZMU0PVdapWKMvgpR4tj4GYyG0L9friy7ALuDIe4zZWcYJSEg2bN7FET-lxqavxq6ocn6xVnl6LbP_xROqLEszXueqqYWFFbRuEHH6MQygHXtfUho2MUBPRfV7zakjkgMUbxA7gJrKE_W5cIr_6GCe7YLnR2Lc13VcaJnjYCI6gM6CuXPefBfQCC9tzvdwkPMemGCTb908OxPpFS3bEcaw8Dhn3_YFgumtLSQ"/>
+</div>
+<div class="flex-1 min-w-0">
+<h5 class="font-label-md text-label-md text-on-surface truncate">Florentine Double-Gilded Candelabra</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Category: Lighting &amp; Tabletop • Qty 24</p>
+</div>
+<span class="font-label-caps text-label-caps text-primary">$45/ea</span>
+</div>
+<div class="flex items-center gap-4 p-3.5 rounded-lg bg-surface-container-lowest shadow-sm">
+<div class="w-14 h-14 rounded bg-surface-container-high overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Raw fringed pure linen napkin in warm alabaster tone." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnIpKYR22kUKdsBe63cjSNaL9UbsFXei5gLgJfnNCi8cQmi8Rjg1E2NNnApvRrfdlrRO8wrLubim9XIvzD39rOCsrDqQ5OOykGZoyQzzXLwunn8PaN0J-06q4U_esNKH1anAAFIYJx8AgD4rrF5GehU-3n9L8-vdHgJEcSsAi69Jk51733pLQxk-vy66FYiLETENex0qP8lnN4Gt_q8QcOjKZQ99T4Env45Q5Asew8yzDm0yB_YYvmaw"/>
+</div>
+<div class="flex-1 min-w-0">
+<h5 class="font-label-md text-label-md text-on-surface truncate">Raw Fringed Belgian Linen Napkins</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Category: Textiles &amp; Napery • Qty 150</p>
+</div>
+<span class="font-label-caps text-label-caps text-primary">$6/ea</span>
+</div>
+<div class="flex items-center gap-4 p-3.5 rounded-lg bg-surface-container-lowest shadow-sm">
+<div class="w-14 h-14 rounded bg-surface-container-high overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Wrought iron botanical wedding arch with organic curved branches." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaQDAFGoorgXIMAPssFaLfTuntN7gJn0rxkun_qqyK9ItmJKAy58dTvsNMUBDqhXZ6sWSQv6il6ar9C9AOPCsWIDfOfxy5InusHfii1WBzTTpQy5I4_X9RpNom8FeWP_dXRph-cj5OTZ9rOthX9BQOem3gNuhhQ-CGM5kmBI2WigBx2Y2te4YT762b-Hti-o2x6hINt0nfT8xrqeayNTeMK_CtD1D3f8ZNSdRInuthfd9cFhZzPZkxBA"/>
+</div>
+<div class="flex-1 min-w-0">
+<h5 class="font-label-md text-label-md text-on-surface truncate">Hand-Forged Baroque Ceremony Arch</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Category: Architectural Arches • Qty 1</p>
+</div>
+<span class="font-label-caps text-label-caps text-primary">$850/day</span>
+</div>
+</div>
+</div>
+<div class="pt-6 border-t border-surface-container-highest flex gap-3">
+<button class="flex-1 h-12 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all flex items-center justify-center gap-2 shadow-md" onclick="addToQuote(currentConcept, 18); closeDrawer();">
+<span class="material-symbols-outlined text-[18px]">add_task</span>
+<span>Transfer 18 Items to Quote</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Floating Proposal Summary Bar (Style Guidance Spec: Level 2 Elevation, Pill Shape 9999px) -->
+<aside class="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 bg-surface/90 backdrop-blur-xl rounded-full shadow-[0_12px_32px_-4px_rgba(20,20,20,0.14)] border border-surface-variant px-5 py-3.5 flex items-center gap-6 max-w-[92vw] sm:max-w-xl transition-all duration-300" id="proposal-dock">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">style</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md text-on-surface font-semibold" id="dock-count">24 Atelier Elements</span>
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="dock-subtitle">Est. Production: $8,420</span>
+</div>
+</div>
+<div class="w-px h-6 bg-outline-variant"></div>
+<div class="flex items-center gap-2">
+<a class="h-10 px-5 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary-container hover:text-on-primary transition-all font-label-md text-label-md flex items-center gap-2 whitespace-nowrap shadow-sm" data-path="moodboard-to-quote" href="#">
+<span>Proceed to Proposal</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</aside>
+<!-- Interactive JavaScript -->
+<script>
+    let currentConcept = "Venetian Splendor";
+    let totalItems = 24;
+    let baseEst = 8420;
+
+    // Filter logic
+    document.querySelectorAll('.filter-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        document.querySelectorAll('.filter-pill').forEach(p => {
+          p.classList.remove('bg-inverse-surface', 'text-inverse-on-surface');
+          p.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+        });
+        pill.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+        pill.classList.add('bg-inverse-surface', 'text-inverse-on-surface');
+
+        const filter = pill.getAttribute('data-filter');
+        const cards = document.querySelectorAll('.narrative-card');
+        
+        cards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Drawer triggers
+    function openDrawer(title) {
+      currentConcept = title;
+      document.getElementById('drawer-title').innerText = title;
+      const drawer = document.getElementById('concept-drawer');
+      const panel = document.getElementById('drawer-panel');
+      drawer.classList.remove('pointer-events-none', 'opacity-0');
+      drawer.classList.add('opacity-100');
+      panel.classList.remove('translate-x-full');
+      panel.classList.add('translate-x-0');
+    }
+
+    function closeDrawer() {
+      const drawer = document.getElementById('concept-drawer');
+      const panel = document.getElementById('drawer-panel');
+      panel.classList.add('translate-x-full');
+      panel.classList.remove('translate-x-0');
+      drawer.classList.add('opacity-0');
+      setTimeout(() => {
+        drawer.classList.add('pointer-events-none');
+      }, 300);
+    }
+
+    // Add to quote notification & tally
+    function addToQuote(conceptName, count) {
+      totalItems += count;
+      baseEst += count * 185;
+      
+      const countEl = document.getElementById('dock-count');
+      const subEl = document.getElementById('dock-subtitle');
+      const dock = document.getElementById('proposal-dock');
+
+      countEl.innerText = `${totalItems} Atelier Elements`;
+      subEl.innerText = `Est. Production: $${baseEst.toLocaleString()}`;
+
+      // Micro-bounce animation
+      dock.classList.add('scale-105');
+      setTimeout(() => {
+        dock.classList.remove('scale-105');
+      }, 200);
+    }
+
+    function previewCollection(id) {
+      alert("Launching WebGL 3D Venue Space Simulator for " + id);
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-3xl"><div class="max-w-[1440px] mx-auto px-gutter py-space-xl flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex items-center gap-3"><span class="font-headline-sm text-headline-sm text-on-surface">L'ÉTOILE</span><span class="text-outline-variant">•</span><span class="font-body-sm text-body-sm text-on-surface-variant">Curated Wedding Design &amp; Production Platform</span></div><div class="flex flex-wrap items-center justify-center gap-6"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms" href="#">Terms</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy" href="#">Privacy</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="concierge-support" href="#">Concierge Support</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="client-portal" href="#">Client Portal</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="press" href="#">Press</a></div></div></footer></body></html>

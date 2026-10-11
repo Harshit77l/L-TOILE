@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#a39a91", "surface-bright": "#fbf9f5", "surface": "#fbf9f5", "on-primary-container": "#443000", "on-tertiary-fixed": "#201b15", "on-primary-fixed-variant": "#5b430a", "secondary-container": "#e2dfde", "on-secondary-fixed-variant": "#474646", "on-secondary-container": "#636262", "outline": "#7f7668", "on-tertiary": "#ffffff", "inverse-surface": "#30312e", "secondary-fixed": "#e5e2e1", "primary-fixed-dim": "#e6c27e", "on-background": "#1b1c1a", "on-primary-fixed": "#261900", "on-secondary": "#ffffff", "tertiary": "#645d56", "surface-dim": "#dbdad6", "surface-variant": "#e4e2de", "on-tertiary-fixed-variant": "#4c463f", "on-surface-variant": "#4d4639", "secondary": "#5f5e5e", "surface-container-low": "#f5f3ef", "surface-container-high": "#eae8e4", "error-container": "#ffdad6", "surface-tint": "#755a21", "secondary-fixed-dim": "#c8c6c5", "tertiary-fixed": "#ece1d7", "on-secondary-fixed": "#1c1b1b", "error": "#ba1a1a", "primary-container": "#b89758", "on-error": "#ffffff", "inverse-primary": "#e6c27e", "on-error-container": "#93000a", "surface-container": "#efeeea", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "primary-fixed": "#ffdea4", "surface-container-highest": "#e4e2de", "on-surface": "#1b1c1a", "inverse-on-surface": "#f2f0ed", "on-tertiary-container": "#38322c", "tertiary-fixed-dim": "#cfc5bb", "outline-variant": "#d1c5b5", "primary": "#755a21", "background": "#fbf9f5" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "gutter-mobile": "1rem", "space-sm": "0.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-2xl": "4rem", "space-md": "1rem", "space-3xl": "6rem", "margin": "3rem" }, "fontFamily": { "label-md": ["Inter"], "body-sm": ["Inter"], "display-hero-mobile": ["Playfair Display"], "body-md": ["Inter"], "headline-lg": ["Playfair Display"], "label-caps": ["Inter"], "headline-md": ["Playfair Display"], "title-editorial": ["Playfair Display"], "body-lg": ["Inter"], "display-hero": ["Playfair Display"], "headline-sm": ["Playfair Display"], "label-sm": ["Inter"], "headline-lg-mobile": ["Playfair Display"] }, "fontSize": { "label-md": ["13px", { "lineHeight": "16px", "fontWeight": "500" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "display-hero-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-caps": ["11px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "600" }], "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }], "title-editorial": ["18px", { "lineHeight": "24px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "28px", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "14px", "fontWeight": "500" }], "headline-lg-mobile": ["28px", { "lineHeight": "34px", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(20,20,20,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-gutter flex items-center justify-between gap-6"><div class="flex items-center gap-4 shrink-0"><a class="flex flex-col" data-path="inspiration" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface leading-none">L'ÉTOILE</span><span class="font-label-caps text-label-caps text-on-surface-variant tracking-[0.2em] mt-1">ATELIER &amp; CURATION</span></a></div><nav class="hidden xl:flex items-center gap-8" data-active-classes="text-on-surface font-semibold"><a aria-current="page" class="transition-colors text-on-surface font-semibold" data-path="inspiration" href="#">INSPIRATION</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="galleries" href="#">GALLERIES</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="rentals-categories" href="#">RENTALS / CATEGORIES</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="journal" href="#">JOURNAL</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">CONTACT</a></nav><div class="flex items-center gap-4 shrink-0"><div class="relative hidden lg:flex items-center"><span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[18px] pointer-events-none">search</span><input class="w-64 h-10 pl-10 pr-4 rounded-full bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm shadow-[0_1px_4px_rgba(20,20,20,0.03)] focus:outline-none focus:ring-1 focus:ring-primary-container transition-all" placeholder="Search arches, chandeliers, seating..." type="search"/></div><a class="hidden sm:inline-flex items-center justify-center px-4 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="client-portal" href="#">Log In</a><a class="inline-flex items-center gap-2.5 h-10 px-5 rounded-full bg-inverse-surface text-inverse-on-surface font-label-md text-label-md shadow-[0_2px_12px_rgba(20,20,20,0.12)] hover:bg-primary-container hover:text-on-primary transition-all" data-path="moodboard-to-quote" href="#"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span><span>Moodboard-to-Quote</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin pb-space-3xl">
+<!-- Breadcrumb & Catalog Meta Header -->
+<div class="flex flex-wrap items-center justify-between gap-4 pt-space-lg pb-space-md">
+<div class="flex items-center gap-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">ARCHIVES &amp; INVENTORY</span>
+<span class="text-outline-variant font-label-caps text-label-caps">/</span>
+<span class="font-label-caps text-label-caps text-primary font-semibold tracking-wider uppercase">CURATED SEARCH</span>
+<span class="text-outline-variant font-label-caps text-label-caps">/</span>
+<span class="font-label-caps text-label-caps text-on-surface font-semibold tracking-wider uppercase">CHANDELIERS &amp; ARCHES</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+<span>Atelier Vault Sync: Real-time Live</span>
+</div>
+<span class="text-on-surface-variant font-label-sm text-label-sm hidden sm:inline">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Autumn / Winter '25 Edition</span>
+</div>
+</div>
+<!-- Editorial Top Search Command Bar -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md md:p-space-lg shadow-sm mb-space-xl relative overflow-hidden">
+<div class="absolute -right-20 -top-20 w-80 h-80 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+<div class="flex flex-col gap-space-md relative z-10">
+<div class="flex flex-col md:flex-row items-stretch md:items-center gap-3">
+<!-- Primary Search Input with Embedded Clear & Icon -->
+<div class="relative flex-1 flex items-center bg-surface-container-low rounded-full px-5 py-3 shadow-inner group focus-within:ring-2 focus-within:ring-primary-container/30 transition-all">
+<span class="material-symbols-outlined text-primary text-[22px] mr-3">manage_search</span>
+<input class="w-full bg-transparent text-on-surface font-headline-sm text-headline-sm placeholder:text-on-surface-variant focus:outline-none tracking-tight" placeholder="Search bespoke inventory, archetypes, materials..." type="text" value="Crystal Chandelier, Arch, French Oak"/>
+<button class="ml-2 w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors" title="Clear Search Query" type="button">
+<span class="material-symbols-outlined text-[16px]">close</span>
+</button>
+</div>
+<!-- Execute / Action Buttons -->
+<div class="flex items-center gap-2 shrink-0">
+<button class="h-12 px-7 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary transition-colors font-label-md text-label-md flex items-center justify-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span>Update Vault</span>
+</button>
+<button class="h-12 w-12 rounded-full bg-surface-container-low hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" title="Save this Search Setup">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+</div>
+</div>
+<!-- Quick Search Chips & Live Feedback Counter -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pt-1">
+<div class="flex flex-wrap items-center gap-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase mr-1">Active Criteria:</span>
+<span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm group">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>Query: "Chandeliers &amp; Arches"</span>
+<span class="material-symbols-outlined text-[14px] text-on-surface-variant group-hover:text-on-surface cursor-pointer">cancel</span>
+</span>
+<span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm group">
+<span>Material: Hand-Cut Crystal</span>
+<span class="material-symbols-outlined text-[14px] text-on-surface-variant group-hover:text-on-surface cursor-pointer">cancel</span>
+</span>
+<span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm group">
+<span>Period: French Baroque &amp; Modern</span>
+<span class="material-symbols-outlined text-[14px] text-on-surface-variant group-hover:text-on-surface cursor-pointer">cancel</span>
+</span>
+<button class="font-label-sm text-label-sm text-primary underline underline-offset-4 hover:text-on-surface transition-colors ml-2">
+            Reset all filters
+          </button>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<span class="font-title-editorial text-title-editorial text-on-surface italic">24</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">curated rental items matching atelier parameters</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Layout Grid: Sidebar (25%) + Results (75%) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT FILTER SIDEBAR (25% -> 3 cols of 12) -->
+<aside class="lg:col-span-3 flex flex-col gap-space-lg bg-surface-container-lowest p-space-md md:p-space-lg rounded-lg shadow-sm">
+<!-- Sidebar Header -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">filter_vintage</span>
+<h2 class="font-title-editorial text-title-editorial text-on-surface tracking-normal">Atelier Filters</h2>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">4 Active</span>
+</div>
+<!-- Filter Section 1: Categories -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Category</span>
+<span class="font-label-sm text-label-sm text-outline">Total 110</span>
+</div>
+<div class="flex flex-col gap-1.5">
+<!-- Item 1: All -->
+<button class="flex items-center justify-between w-full px-3 py-2 rounded-full text-left font-body-sm text-body-sm text-on-surface-variant hover:bg-surface-container-low transition-colors group">
+<span class="group-hover:text-on-surface">All Disciplines</span>
+<span class="font-label-sm text-label-sm text-outline">48</span>
+</button>
+<!-- Item 2: Chandeliers (Active) -->
+<button class="flex items-center justify-between w-full px-3 py-2 rounded-full text-left font-body-sm text-body-sm bg-surface-container-high text-on-surface font-semibold group shadow-sm">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>Chandeliers &amp; Overhead</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-medium">14</span>
+</button>
+<!-- Item 3: Arches (Active) -->
+<button class="flex items-center justify-between w-full px-3 py-2 rounded-full text-left font-body-sm text-body-sm bg-surface-container-high text-on-surface font-semibold group shadow-sm">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>Arches &amp; Mandaps</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-medium">10</span>
+</button>
+<!-- Item 4: Seating -->
+<button class="flex items-center justify-between w-full px-3 py-2 rounded-full text-left font-body-sm text-body-sm text-on-surface-variant hover:bg-surface-container-low transition-colors group">
+<span class="group-hover:text-on-surface">Seating &amp; Lounges</span>
+<span class="font-label-sm text-label-sm text-outline">12</span>
+</button>
+<!-- Item 5: Tables -->
+<button class="flex items-center justify-between w-full px-3 py-2 rounded-full text-left font-body-sm text-body-sm text-on-surface-variant hover:bg-surface-container-low transition-colors group">
+<span class="group-hover:text-on-surface">Tables &amp; Dining</span>
+<span class="font-label-sm text-label-sm text-outline">8</span>
+</button>
+<!-- Item 6: Tableware -->
+<button class="flex items-center justify-between w-full px-3 py-2 rounded-full text-left font-body-sm text-body-sm text-on-surface-variant hover:bg-surface-container-low transition-colors group">
+<span class="group-hover:text-on-surface">Tableware &amp; Accents</span>
+<span class="font-label-sm text-label-sm text-outline">18</span>
+</button>
+</div>
+</div>
+<!-- Divider -->
+<div class="h-px w-full bg-surface-container-high"></div>
+<!-- Filter Section 2: Availability Date Picker -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Event Timeline Window</span>
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">calendar_month</span>
+</div>
+<div class="bg-surface-container-low rounded-lg p-3 flex flex-col gap-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>Install &amp; Strike Range:</span>
+<span class="text-primary font-semibold">Confirmed</span>
+</div>
+<div class="flex items-center gap-2 bg-surface-container-lowest px-3 py-2 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">event_available</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium truncate">Oct 18, 2025 — Oct 22, 2025</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant italic text-center">3 Available Units Guaranteed</span>
+</div>
+</div>
+<!-- Divider -->
+<div class="h-px w-full bg-surface-container-high"></div>
+<!-- Filter Section 3: Rental Investment Bracket -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Investment Bracket</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">$500 – $4,500</span>
+</div>
+<!-- Interactive Sparkline / Visual Frequency Distribution -->
+<div class="h-10 w-full flex items-end gap-1 px-1 pt-2">
+<div class="flex-1 bg-surface-container-high hover:bg-primary-container rounded-t h-[20%] transition-colors"></div>
+<div class="flex-1 bg-surface-container-high hover:bg-primary-container rounded-t h-[40%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[85%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[100%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[65%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[45%] transition-colors"></div>
+<div class="flex-1 bg-surface-container-high hover:bg-primary-container rounded-t h-[25%] transition-colors"></div>
+<div class="flex-1 bg-surface-container-high hover:bg-primary-container rounded-t h-[15%] transition-colors"></div>
+</div>
+<!-- Slider Track Simulation -->
+<div class="relative w-full h-1.5 bg-surface-container rounded-full mt-1">
+<div class="absolute left-1/4 right-1/6 top-0 bottom-0 bg-primary rounded-full"></div>
+<div class="absolute left-1/4 top-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-surface-container-lowest shadow-md ring-2 ring-primary"></div>
+<div class="absolute right-1/6 top-1/2 -translate-y-1/2 translate-x-1/2 w-4 h-4 rounded-full bg-surface-container-lowest shadow-md ring-2 ring-primary"></div>
+</div>
+<!-- Quick Select Pills -->
+<div class="flex flex-wrap gap-1.5 pt-2">
+<button class="px-3 py-1.5 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant hover:bg-surface-container-high transition-colors">$500 – $1,500</button>
+<button class="px-3 py-1.5 rounded-full bg-inverse-surface text-inverse-on-surface font-label-sm text-label-sm shadow-sm">$1,500 – $3,500</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant hover:bg-surface-container-high transition-colors">$3,500+</button>
+</div>
+</div>
+<!-- Divider -->
+<div class="h-px w-full bg-surface-container-high"></div>
+<!-- Filter Section 4: Aesthetic Style -->
+<div class="flex flex-col gap-3">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Curation Archetype</span>
+<div class="space-y-2">
+<!-- Checkbox 1 -->
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="w-4 h-4 rounded bg-inverse-surface flex items-center justify-center text-inverse-on-surface shadow-xs">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Classic Romantic</span>
+</label>
+<!-- Checkbox 2 -->
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="w-4 h-4 rounded bg-inverse-surface flex items-center justify-center text-inverse-on-surface shadow-xs">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Baroque Gilded</span>
+</label>
+<!-- Checkbox 3 -->
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="w-4 h-4 rounded bg-surface-container group-hover:bg-surface-container-high transition-colors"></div>
+<span class="font-body-sm text-body-sm text-on-surface-variant group-hover:text-on-surface transition-colors">Organic Modern</span>
+</label>
+<!-- Checkbox 4 -->
+<label class="flex items-center gap-3 cursor-pointer group">
+<div class="w-4 h-4 rounded bg-surface-container group-hover:bg-surface-container-high transition-colors"></div>
+<span class="font-body-sm text-body-sm text-on-surface-variant group-hover:text-on-surface transition-colors">Contemporary Minimal</span>
+</label>
+</div>
+</div>
+<!-- Atelier Delivery & Spec Badge -->
+<div class="rounded-lg bg-surface-container-low p-space-md flex flex-col gap-2 mt-2">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span class="font-label-md text-label-md font-semibold">White-Glove Transport</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">All chandeliers include engineered rigging trusses and on-site master electrical technicians.</p>
+</div>
+</aside>
+<!-- RIGHT RESULTS GRID (75% -> 9 cols of 12) -->
+<section class="lg:col-span-9 flex flex-col gap-space-lg">
+<!-- Top Grid Bar: Sorting & Display Status -->
+<div class="flex flex-wrap items-center justify-between gap-4 bg-surface-container-lowest px-space-md py-3 rounded-lg shadow-sm">
+<div class="flex items-center gap-3">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Ordering:</span>
+<div class="relative inline-block">
+<select class="appearance-none bg-surface-container-low text-on-surface font-label-md text-label-md pl-4 pr-10 py-2 rounded-full focus:outline-none focus:ring-1 focus:ring-primary cursor-pointer">
+<option>Featured Atelier Selection</option>
+<option>Price: High to Low</option>
+<option>Price: Low to High</option>
+<option>Most Popular in Quotes</option>
+<option>Recently Added to Archive</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant text-[16px]">expand_more</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Page 1 of 4</span>
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors disabled:opacity-40" disabled="">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- 6 RICH INVENTORY ITEM CARDS (2-col or 3-col responsive) -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-space-md">
+<!-- CARD 1: Grand Venetian Crystal Chandelier (3-Tier) -->
+<article class="group bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Media Container -->
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-high mb-space-md">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="An opulent grand Venetian crystal chandelier with three cascading tiers hanging from a high ornate plaster ceiling in an Italian villa, glowing with warm candle-like illumination against soft alabaster limestone walls, ultra high-end luxury editorial bridal setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYI1kiP5HhWgIxN36P23TI5sH7N7rOwIQTW5ElPXH2OQTwNs6v_-JRmtV432ZgyK61z4Ui0j5P_74m4FMG1kE3Yggtl1b3MTpqYJvyVKtQCguXckzUOTb7eoq8y7IJG2QrgyX0RO2RsSx0A_rZvEbX6rohGsoV9uM5c36XNFxDN4ZK_Jd2IGrnGNvsbRAEszfOJ68jNOsloX1iP1c85ln2H5CIFK9BTSbehw5yCjZUgUl3onlCHwBu5g"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface/90 backdrop-blur-md font-label-caps text-label-caps text-on-surface tracking-wider uppercase shadow-xs">
+                Overhead Chandelier
+              </span>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 px-3 py-1.5 rounded-full bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm flex items-center justify-between">
+<span>Ref. #LV-9804</span>
+<span class="text-primary-fixed-dim">2 in Reserve</span>
+</div>
+</div>
+<!-- Content Area -->
+<div class="flex flex-col gap-1.5 mb-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                Grand Venetian Crystal Chandelier (3-Tier)
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Hand-cut lead crystal drops with champagne gold gilt frame. Dimmable warm 2400K filament candelabra integration.
+              </p>
+<!-- Spec Metadata Pill Cluster -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Dim: 72"H × 54"W
+                </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Weight: 140 lbs
+                </span>
+</div>
+</div>
+</div>
+<!-- Bottom Price & CTA Area -->
+<div class="pt-space-sm flex items-center justify-between gap-2">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Day Rental</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">$2,450</span>
+</div>
+<button class="h-11 px-5 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary transition-colors font-label-md text-label-md flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Quote</span>
+</button>
+</div>
+</article>
+<!-- CARD 2: Bohemian Wildflower Cathedral Arch (Added to Quote Active) -->
+<article class="group bg-surface-container-lowest rounded-xl p-space-md shadow-sm ring-2 ring-primary/40 hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Media Container -->
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-high mb-space-md">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="A dramatic tall cathedral arch woven with dried pampas grass, lush ivory garden roses, dusty blush ranunculus, and trailing eucalyptus set on a manicured garden estate terrace overlooking misty mountains, soft morning champagne light, luxury wedding floral installation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-A1NsOYb1bwjidDUl-xmGGcsaVIFPG3SUxzaCQHaZRCsQvjPn8n7Rjcz-zrZ6gCGuIHeLCdzOczxxlD-5gWt3dUCBMEyhxq7x7E_Klp_qpSbngNJ9fivruyPdMnQ-rTiFqy1W59Auow7uPbEqHDKekarzkcXhg9Pqa-l4Bk6dWlt76_A7UJgPlNNiGeMotZrcUKGfEQa17dtgVuK5prjb_9JAkx1V0EtL0PaCls_oX2vZUk1i4Uu2fQ"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface/90 backdrop-blur-md font-label-caps text-label-caps text-primary tracking-wider uppercase font-semibold shadow-xs">
+                Arch &amp; Structure
+              </span>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center transition-colors shadow-xs">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 px-3 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm flex items-center justify-between shadow-sm">
+<span class="font-semibold">Selected for Proposal</span>
+<span>Qty: 1</span>
+</div>
+</div>
+<!-- Content Area -->
+<div class="flex flex-col gap-1.5 mb-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                Bohemian Wildflower Cathedral Arch
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Hand-forged curved wrought iron structure pre-dressed with organic botanical anchors, preserved floral foundations, and stabilizer plates.
+              </p>
+<!-- Spec Metadata Pill Cluster -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Dim: 118"H × 96"W
+                </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Freestanding
+                </span>
+</div>
+</div>
+</div>
+<!-- Bottom Price & CTA Area (Added state) -->
+<div class="pt-space-sm flex items-center justify-between gap-2">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Day Rental</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">$2,500</span>
+</div>
+<button class="h-11 px-5 rounded-full bg-primary text-on-primary hover:bg-primary/90 transition-colors font-label-md text-label-md flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span>Added to Quote ✓</span>
+</button>
+</div>
+</article>
+<!-- CARD 3: Gilded Louis XVI Candelabra Suite -->
+<article class="group bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Media Container -->
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-high mb-space-md">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="A refined suite of antique French Louis XVI five-arm candelabras crafted in polished antique gilt bronze with tall dripless ivory taper candles, set on a mirrored salon mantle with floral swags, warm glowing moody evening wedding lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAR9CFfZBRxn_SE5pDsUEC2jhZuNKLOnlj9fov5qXELn8QPvdJ4wDlTjJcoYEAyOr_U6TbZx-ZV5gjw6IYs0Ur0U0rCFIcW45ohT2tj9bVEbQPOR0gR-zT4A7RgyCSjA7sLhZy97m0vOzNDQ1Ai7463BhdQ-eMZPpPYdZap-2DXCXljO60g1tZ5orea-Cup6NO7Ex9xnqhpjC-iEWeOjLKZq99O9j9pMuZs3CWBo3JykFdCAmdwjpbTNw"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface/90 backdrop-blur-md font-label-caps text-label-caps text-on-surface tracking-wider uppercase shadow-xs">
+                Lighting / Accents
+              </span>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 px-3 py-1.5 rounded-full bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm flex items-center justify-between">
+<span>Ref. #LX-1774</span>
+<span class="text-primary-fixed-dim">Pair of 2</span>
+</div>
+</div>
+<!-- Content Area -->
+<div class="flex flex-col gap-1.5 mb-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                Gilded Louis XVI Candelabra Suite
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Five-arm ormolu bronze candelabras crafted with neoclassical acanthus leaf embellishments. Includes curated chimney glass hurricanes.
+              </p>
+<!-- Spec Metadata Pill Cluster -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Dim: 38"H × 18"W
+                </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Set of 2
+                </span>
+</div>
+</div>
+</div>
+<!-- Bottom Price & CTA Area -->
+<div class="pt-space-sm flex items-center justify-between gap-2">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Day Rental</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">$780</span>
+</div>
+<button class="h-11 px-5 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary transition-colors font-label-md text-label-md flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Quote</span>
+</button>
+</div>
+</article>
+<!-- CARD 4: Cascading Wisteria & Crystal Canopy -->
+<article class="group bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Media Container -->
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-high mb-space-md">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="A breathless overhead wedding ceiling installation of cascading white and pale lilac silk wisteria intertwined with thousands of miniature faceted crystal droplets and fairy lights, suspended over a banquet table in a historic glass conservatory, soft ambient golden hour glow." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVBFQ9Dp1Nn9T6831u8ZpxRg82iyNwze_IB-QgKZyjZmU7ZcvhfOcrn_xG_6h7-_SA-ryScZNOklet1ZKpeAKt6MTq4ni428eUWVweQe96WbP_VsEUSioNbPBG3mVhhGl4sNUGvIJz2J_GSfJ2OCS3cevqcEtLrCJhpA2YfCj81TL2kFnBLsd4o_PRcsJc_aLY-pTd6Cw_nXGjDEKwWwnNwrnp7vX6TTOIBAwuzGw9M9aQq0SHoNmV3g"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface/90 backdrop-blur-md font-label-caps text-label-caps text-on-surface tracking-wider uppercase shadow-xs">
+                Canopy Rigging
+              </span>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 px-3 py-1.5 rounded-full bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm flex items-center justify-between">
+<span>Ref. #CC-4420</span>
+<span class="text-primary-fixed-dim">Custom Modular</span>
+</div>
+</div>
+<!-- Content Area -->
+<div class="flex flex-col gap-1.5 mb-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                Cascading Wisteria &amp; Crystal Canopy
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                A breath-taking ceiling statement structure combining 30 linear feet of artisanal cascading silk blossoms and suspended crystal prisms.
+              </p>
+<!-- Spec Metadata Pill Cluster -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Span: 24' – 36' L
+                </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Rigging Incl.
+                </span>
+</div>
+</div>
+</div>
+<!-- Bottom Price & CTA Area -->
+<div class="pt-space-sm flex items-center justify-between gap-2">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Day Rental</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">$4,200</span>
+</div>
+<button class="h-11 px-5 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary transition-colors font-label-md text-label-md flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Quote</span>
+</button>
+</div>
+</article>
+<!-- CARD 5: French Renaissance Crystal Urn Centerpieces (Set of 6) -->
+<article class="group bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Media Container -->
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-high mb-space-md">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="A luxury tablescape featuring pedestal crystal footed urn centerpieces filled with cascading white peonies, sweet peas, and trailing jasmine vines on an embroidered natural linen tablecloth, soft natural daylight, French chateau wedding editorial style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqpkjZsdFai6isLRlwk_iR7FE0bZIQY7N7OiC3rYLcthCFQ8ki_pmcGWvDM4y_YCrpC-DeyZGC_-Ecst_Gd7smWtXJGMzpAdfnV9Tr3OMreZm8AgL9LD5-6w5yOhtIuzxz1jN_pqYytpIMxdvY2cQBnRmPCo_xSqlkcgEl_y45r0T2aD4vA2292-4XMR7FS8RfxHekBTwUMOgF1djWj1gOWD_GkxBcGnAg6b5mVXWOgHdq3HctowpmnA"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface/90 backdrop-blur-md font-label-caps text-label-caps text-on-surface tracking-wider uppercase shadow-xs">
+                Urns &amp; Vessels
+              </span>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 px-3 py-1.5 rounded-full bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm flex items-center justify-between">
+<span>Ref. #RU-3109</span>
+<span class="text-primary-fixed-dim">Set of 6 Units</span>
+</div>
+</div>
+<!-- Content Area -->
+<div class="flex flex-col gap-1.5 mb-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                French Renaissance Crystal Urns (Set of 6)
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Heavyweight diamond-facet cut crystal urns mounted on cast brass bases. Engineered for abundant water containment and heavy floral weight.
+              </p>
+<!-- Spec Metadata Pill Cluster -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Dim: 26"H × 16"D
+                </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Set of 6
+                </span>
+</div>
+</div>
+</div>
+<!-- Bottom Price & CTA Area -->
+<div class="pt-space-sm flex items-center justify-between gap-2">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Day Rental</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">$1,800</span>
+</div>
+<button class="h-11 px-5 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary transition-colors font-label-md text-label-md flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Quote</span>
+</button>
+</div>
+</article>
+<!-- CARD 6: Brutalist Bronze Pillar & Floral Plinth -->
+<article class="group bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div>
+<!-- Media Container -->
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-high mb-space-md">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="An architectural pair of sculptural patinated bronze pedestals and plinths topped with contemporary architectural floral arrangements of white anthuriums, calla lilies, and sculptural branch work, warm museum spotlighting in an art-focused bridal gallery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA923diB9kKPZ8S37uE3SRhmvDg8hBfgDKBq2-qIj1vlwiEl_wN1YXC7SMk7RWlVQLnYd5_7pIy3Nqe8A5vmj_rI37Wlkz3d_2VHRfCXHbAvrsbEOM--FRZ43zPpbGuMvJAWELWu_r6uStWbfvXzlrIXcjKsfQ5jHl7vJFXvAopXiF2JryCNoAAHdj7K8YoYx3riBaIzasz9OsP7ORCBlZsFZ9LRwhihiY1oNaYferOjBkdBHyZVjrUug"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface/90 backdrop-blur-md font-label-caps text-label-caps text-on-surface tracking-wider uppercase shadow-xs">
+                Plinths &amp; Altar
+              </span>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/90 backdrop-blur-md flex items-center justify-center text-on-surface hover:text-primary transition-colors shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 px-3 py-1.5 rounded-full bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm flex items-center justify-between">
+<span>Ref. #BP-6021</span>
+<span class="text-primary-fixed-dim">Matched Pair</span>
+</div>
+</div>
+<!-- Content Area -->
+<div class="flex flex-col gap-1.5 mb-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                Brutalist Bronze Pillar &amp; Floral Plinth
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Hand-torched patinated bronze finish with internal counter-weighting. Ideal for ceremonial framing, entrance focal points, and altar backdrops.
+              </p>
+<!-- Spec Metadata Pill Cluster -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Dim: 48"H &amp; 60"H
+                </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                  Pair of 2
+                </span>
+</div>
+</div>
+</div>
+<!-- Bottom Price & CTA Area -->
+<div class="pt-space-sm flex items-center justify-between gap-2">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Day Rental</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">$1,200</span>
+</div>
+<button class="h-11 px-5 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary transition-colors font-label-md text-label-md flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Quote</span>
+</button>
+</div>
+</article>
+</div>
+<!-- Pagination & Bottom Catalog Concierge -->
+<div class="mt-space-lg p-space-lg rounded-xl bg-surface-container-low flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary-container/20 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">architecture</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Need a custom fabrication or architectural alteration?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Our in-house master artisans and lighting engineers draft bespoke builds for private estates.</p>
+</div>
+</div>
+<button class="shrink-0 h-11 px-6 rounded-full bg-surface-container-lowest text-on-surface hover:text-primary transition-colors font-label-md text-label-md shadow-xs flex items-center gap-2">
+<span>Consult Master Atelier</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</section>
+</div>
+<!-- FLOATING PROPOSAL SUMMARY DOCK (Always visible bottom bar) -->
+<aside class="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 w-[92%] max-w-[820px] bg-surface-bright/95 backdrop-blur-xl rounded-full p-2.5 px-6 shadow-xl flex items-center justify-between gap-4">
+<div class="flex items-center gap-3 shrink-0">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[20px]">draft_orders</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold tracking-wider">Live Proposal Draft</span>
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">1 Selected Item • $2,500 subtotal</span>
+</div>
+</div>
+<!-- Mini Avatar Stack of Added items preview -->
+<div class="hidden sm:flex items-center -space-x-2 shrink-0">
+<div class="w-8 h-8 rounded-full bg-surface-container-high overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Close up thumbnail detail of Bohemian Cathedral wedding arch greenery and flowers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAKszMwE5ezpekNlT-a2Lz9Vzf-_yXOX_FpDWtPrzerKWf1Kkqrc0t4gWes-tqbK8p2mR9ycWgBUff-3BtTVmE5lbpF8ogWR9Ul4RNDLCWErGNGLwKMzmDvhW5SjDUgKwsGBP72io8m0V_25suP1mF6Q5VlAuGv18eYpjpCXl8mu-bCHnCxUhEp65iTmrRJJ-BYYmJubgKqH26LFpyqSRpd15hx3vYb9UVjUyieXoar1-D-1FjrjoGaw"/>
+</div>
+<div class="w-8 h-8 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center justify-center shadow-xs">
+        +1
+      </div>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<button class="hidden md:inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors px-3 py-2">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>Preview Board</span>
+</button>
+<a class="inline-flex items-center gap-2 h-10 px-6 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary transition-colors font-label-md text-label-md shadow-sm" data-path="moodboard-to-quote" href="#">
+<span>Proceed to Proposal</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</aside>
+</div>
+<script>
+  // Simple interactive mock toggle for Add / Remove from Quote buttons
+  document.querySelectorAll('article button').forEach(button => {
+    if (button.textContent.includes('Add to Quote')) {
+      button.addEventListener('click', function(e) {
+        e.preventDefault();
+        this.classList.remove('bg-inverse-surface', 'text-inverse-on-surface');
+        this.classList.add('bg-primary', 'text-on-primary');
+        this.innerHTML = '<span class="material-symbols-outlined text-[18px]">check_circle</span><span>Added to Quote ✓</span>';
+      });
+    }
+  });
+</script></main><footer class="w-full bg-surface-container-low mt-space-3xl"><div class="max-w-[1440px] mx-auto px-gutter py-space-xl flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex items-center gap-3"><span class="font-headline-sm text-headline-sm text-on-surface">L'ÉTOILE</span><span class="text-outline-variant">•</span><span class="font-body-sm text-body-sm text-on-surface-variant">Curated Wedding Design &amp; Production Platform</span></div><div class="flex flex-wrap items-center justify-center gap-6"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms" href="#">Terms</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy" href="#">Privacy</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="concierge-support" href="#">Concierge Support</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="client-portal" href="#">Client Portal</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="press" href="#">Press</a></div></div></footer></body></html>

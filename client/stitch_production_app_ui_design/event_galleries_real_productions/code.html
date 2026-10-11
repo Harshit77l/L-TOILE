@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#a39a91", "surface-bright": "#fbf9f5", "surface": "#fbf9f5", "on-primary-container": "#443000", "on-tertiary-fixed": "#201b15", "on-primary-fixed-variant": "#5b430a", "secondary-container": "#e2dfde", "on-secondary-fixed-variant": "#474646", "on-secondary-container": "#636262", "outline": "#7f7668", "on-tertiary": "#ffffff", "inverse-surface": "#30312e", "secondary-fixed": "#e5e2e1", "primary-fixed-dim": "#e6c27e", "on-background": "#1b1c1a", "on-primary-fixed": "#261900", "on-secondary": "#ffffff", "tertiary": "#645d56", "surface-dim": "#dbdad6", "surface-variant": "#e4e2de", "on-tertiary-fixed-variant": "#4c463f", "on-surface-variant": "#4d4639", "secondary": "#5f5e5e", "surface-container-low": "#f5f3ef", "surface-container-high": "#eae8e4", "error-container": "#ffdad6", "surface-tint": "#755a21", "secondary-fixed-dim": "#c8c6c5", "tertiary-fixed": "#ece1d7", "on-secondary-fixed": "#1c1b1b", "error": "#ba1a1a", "primary-container": "#b89758", "on-error": "#ffffff", "inverse-primary": "#e6c27e", "on-error-container": "#93000a", "surface-container": "#efeeea", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "primary-fixed": "#ffdea4", "surface-container-highest": "#e4e2de", "on-surface": "#1b1c1a", "inverse-on-surface": "#f2f0ed", "on-tertiary-container": "#38322c", "tertiary-fixed-dim": "#cfc5bb", "outline-variant": "#d1c5b5", "primary": "#755a21", "background": "#fbf9f5" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "gutter-mobile": "1rem", "space-sm": "0.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-2xl": "4rem", "space-md": "1rem", "space-3xl": "6rem", "margin": "3rem" }, "fontFamily": { "label-md": ["Inter"], "body-sm": ["Inter"], "display-hero-mobile": ["Playfair Display"], "body-md": ["Inter"], "headline-lg": ["Playfair Display"], "label-caps": ["Inter"], "headline-md": ["Playfair Display"], "title-editorial": ["Playfair Display"], "body-lg": ["Inter"], "display-hero": ["Playfair Display"], "headline-sm": ["Playfair Display"], "label-sm": ["Inter"], "headline-lg-mobile": ["Playfair Display"] }, "fontSize": { "label-md": ["13px", { "lineHeight": "16px", "fontWeight": "500" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "display-hero-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-caps": ["11px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "600" }], "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }], "title-editorial": ["18px", { "lineHeight": "24px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "28px", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "14px", "fontWeight": "500" }], "headline-lg-mobile": ["28px", { "lineHeight": "34px", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(20,20,20,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-gutter flex items-center justify-between gap-6"><div class="flex items-center gap-4 shrink-0"><a class="flex flex-col" data-path="inspiration" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface leading-none">L'ÉTOILE</span><span class="font-label-caps text-label-caps text-on-surface-variant tracking-[0.2em] mt-1">ATELIER &amp; CURATION</span></a></div><nav class="hidden xl:flex items-center gap-8" data-active-classes="text-on-surface font-semibold"><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="inspiration" href="#">INSPIRATION</a><a aria-current="page" class="transition-colors text-on-surface font-semibold" data-path="galleries" href="#">GALLERIES</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="rentals-categories" href="#">RENTALS / CATEGORIES</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="journal" href="#">JOURNAL</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">CONTACT</a></nav><div class="flex items-center gap-4 shrink-0"><div class="relative hidden lg:flex items-center"><span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[18px] pointer-events-none">search</span><input class="w-64 h-10 pl-10 pr-4 rounded-full bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm shadow-[0_1px_4px_rgba(20,20,20,0.03)] focus:outline-none focus:ring-1 focus:ring-primary-container transition-all" placeholder="Search arches, chandeliers, seating..." type="search"/></div><a class="hidden sm:inline-flex items-center justify-center px-4 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="client-portal" href="#">Log In</a><a class="inline-flex items-center gap-2.5 h-10 px-5 rounded-full bg-inverse-surface text-inverse-on-surface font-label-md text-label-md shadow-[0_2px_12px_rgba(20,20,20,0.12)] hover:bg-primary-container hover:text-on-primary transition-all" data-path="moodboard-to-quote" href="#"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span><span>Moodboard-to-Quote</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Editorial Header & Curated Filter Pill Bar -->
+<section class="w-full max-w-[1440px] mx-auto px-gutter pt-8 pb-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div class="max-w-3xl">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span class="font-label-caps text-label-caps text-primary tracking-[0.2em] uppercase">Archive &amp; Production Monograph</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Atelier Event Galleries</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-3 max-w-2xl">
+          Step inside our most breathtaking productions across Lake Como, Paris, the Cotswolds, and New York.
+        </p>
+</div>
+<!-- Live Atelier Metric Indicator -->
+<div class="hidden lg:flex items-center gap-6 bg-surface-container-low px-6 py-4 rounded-xl shadow-sm">
+<div class="text-right">
+<p class="font-label-caps text-label-caps text-on-surface-variant">Active Season Archives</p>
+<p class="font-headline-sm text-headline-sm text-on-surface">54 Portfolios</p>
+</div>
+<div class="h-8 w-[1px] bg-outline-variant/40"></div>
+<div class="text-right">
+<p class="font-label-caps text-label-caps text-on-surface-variant">Global Destinations</p>
+<p class="font-headline-sm text-headline-sm text-primary">16 Capitols</p>
+</div>
+</div>
+</div>
+<!-- Category Filter Segment -->
+<div class="mt-10 overflow-x-auto pb-2 scrollbar-none">
+<div class="flex items-center gap-2.5 min-w-max" id="categoryFilterContainer">
+<button class="filter-chip active-filter px-5 py-2.5 rounded-full bg-inverse-surface text-inverse-on-surface font-label-md text-label-md transition-all shadow-sm" type="button">
+          All Productions
+        </button>
+<button class="filter-chip px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all font-label-md text-label-md shadow-sm" type="button">
+          Historic Châteaux
+        </button>
+<button class="filter-chip px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all font-label-md text-label-md shadow-sm" type="button">
+          Lakeside Estates
+        </button>
+<button class="filter-chip px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all font-label-md text-label-md shadow-sm" type="button">
+          Orangeries &amp; Conservatories
+        </button>
+<button class="filter-chip px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all font-label-md text-label-md shadow-sm" type="button">
+          Private Islands
+        </button>
+<button class="filter-chip px-5 py-2.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all font-label-md text-label-md shadow-sm" type="button">
+          Metropolitan Lofts
+        </button>
+</div>
+</div>
+</section>
+<!-- Featured Master Story: Full-width Architectural Hero Feature -->
+<section class="w-full max-w-[1440px] mx-auto px-gutter mb-space-2xl">
+<div class="relative w-full bg-surface-container-lowest rounded-xl shadow-md overflow-hidden p-6 lg:p-10">
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-8 items-stretch">
+<!-- Three-Photo Architectural Montage -->
+<div class="xl:col-span-7 flex flex-col gap-4">
+<!-- Primary Anchor View -->
+<div class="relative h-[380px] lg:h-[440px] w-full rounded-lg overflow-hidden group shadow-sm">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Cinematic wide view of Villa Balbiano on Lake Como during an opulent evening wedding reception. Cascades of white wisteria suspended over an imperial banquet table set with polished crystal glass and gold flatware. Twilight reflection over the deep blue lake waters. Warm ambient lighting, high couture bridal editorial photography." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB-SGX3X3_bCl2UbtOXPUM1HGTiG3zMbUTvVuSlgs6RvP06bT8qxkYHy9GBlSdjrOhl2uQs5ZO3AeI0w6Zl-EhbwLQ5ZAHLY-PLZyjBAwdDXOFh10wK2A3HO_RE9TqHqselxCEc0kzLbiVexol2JbJOm636DJks2FKE5Ls7Bm4UuUoffAX4j9VKWc-KGnZsm2DWj5RIUu6YB2rWF9_h0pVK9PvFxTBPBsk7n_sgX5JYNJFMHh7V_plohQ')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/70 via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4 flex gap-2">
+<span class="px-3.5 py-1.5 rounded-full bg-surface-bright/90 backdrop-blur-md text-on-surface font-label-caps text-label-caps uppercase shadow-sm">
+                Master Story
+              </span>
+<span class="px-3.5 py-1.5 rounded-full bg-primary/90 text-on-primary backdrop-blur-md font-label-caps text-label-caps tracking-widest uppercase">
+                Sole Exclusive
+              </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex items-end justify-between text-surface-bright">
+<div>
+<p class="font-label-caps text-label-caps text-primary-fixed uppercase tracking-wider">Site Plan 04 // Villa Balbiano Grounds</p>
+<p class="font-headline-sm text-headline-sm italic text-white drop-shadow">Lake Como, Northern Italy</p>
+</div>
+<span class="hidden sm:inline-flex items-center gap-1.5 font-label-sm text-label-sm bg-surface-bright/20 backdrop-blur-md px-3 py-1 rounded-full text-white">
+<span class="material-symbols-outlined text-[14px]">photo_camera</span> 34 Captures
+              </span>
+</div>
+</div>
+<!-- Secondary Paired Detail Vignettes -->
+<div class="grid grid-cols-2 gap-4 h-[180px] lg:h-[200px]">
+<div class="relative rounded-lg overflow-hidden group shadow-sm">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-105" data-alt="Close up architectural detail of bespoke crystal chandeliers hanging from aged pergola stone columns entwined with lush green vines and scented white gardenias. Soft golden hour light shimmering across cut crystal prisms." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDOnaAISY9d4C0c0mk_mKirL9tJP5erEqN3bLeIv3uOP88mkGvCoXJjXah3bSQJNseK60MUVGoFQjAZ0JTMplc5JyayyqYHbpEBTbdOMAkwKdjDqoNFpT7XXTt0qu5MfPhYA45ovuDBPF0AHKQ6f3zQvr3rwboG1r7bT1QdoPqwOz5CZmgSp5hsrPO8LLt3WiSI7f-OTB0QKK6irG8t4M_q-ijdf5yrH2-_MNSZQ0m73wZDV3ACU_3xfA')">
+</div>
+<div class="absolute bottom-2.5 left-3">
+<span class="font-label-caps text-label-caps text-surface-bright drop-shadow bg-inverse-surface/60 px-2 py-0.5 rounded-full backdrop-blur-sm">Detail // Lighting Truss</span>
+</div>
+</div>
+<div class="relative rounded-lg overflow-hidden group shadow-sm">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 ease-out group-hover:scale-105" data-alt="Lounge vignette with deep emerald green velvet tailored sofas, brushed bronze side tables, marble plinths and tall floral arrangements of calla lilies and pale garden roses in classic Lake Como villa salon." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDOAGUTqj5Uf0G2r5dwmrcigoRYIc4mvXaZnA4ZdRcHi091FfyE5RIdfpW25iEzvo8irD8CnEoBLmHrm2Q3oedL9e1y9U5GCGLpDQQ5goRDEpwCdpWqjm6UdF1BsIUGnBjVHgM367IdWOuhwxpQTuKWTcyhaGqooddZWGv5_nmdL-McgTjVSCnyG2sDpNT8u9czFchd5SBd49IHeH-vfmYMVr4uXK7HWObXm0tTnF-c4PKJtqpgxpGHGw')">
+</div>
+<div class="absolute bottom-2.5 left-3">
+<span class="font-label-caps text-label-caps text-surface-bright drop-shadow bg-inverse-surface/60 px-2 py-0.5 rounded-full backdrop-blur-sm">Lounge // Salon Verde</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Curatorial Notes & Inventory Synthesis -->
+<div class="xl:col-span-5 flex flex-col justify-between pt-2">
+<div class="flex flex-col">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-[0.18em] uppercase">Private Commission</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">June 2024</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight leading-tight">
+              A Midsummer Gala at Villa Balbiano, Lake Como
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4 leading-relaxed">
+              Designed as an immersive continuum between antique stone loggias and the stillness of the water, this 3-day residency blended 18th-century Lombardian grandeur with contemporary tactile restraint. Custom suspended rigging accommodated heavy floral masses while preserving historical stone integrity.
+            </p>
+<!-- Production Credits Accordion Style -->
+<div class="mt-6 bg-surface-container-low p-5 rounded-lg space-y-3 shadow-sm">
+<div class="flex items-center justify-between pb-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Lead Floral Atelier</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Maison de Fleurs, Paris</span>
+</div>
+<div class="flex items-center justify-between pb-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Architectural Scale</span>
+<span class="font-label-md text-label-md text-on-surface">320 Guests • 4-Tier Lakeside Terrace</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Production Budget Metric</span>
+<span class="font-label-md text-label-md text-primary font-semibold">$142,000 Total Decor</span>
+</div>
+</div>
+<!-- Inventory Utilized Pill Manifest -->
+<div class="mt-6">
+<span class="font-label-caps text-label-caps text-on-surface-variant block mb-3 uppercase tracking-wider">
+                Key Curated Atelier Inventory
+              </span>
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-[16px]">light</span>
+                  14 Crystal Chandeliers
+                </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-[16px]">nature</span>
+                  Custom Wisteria Rigging
+                </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-[16px]">chair</span>
+                  Velvet Emerald Lounges
+                </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-[16px]">dinner_dining</span>
+                  Limoges Heritage Plates
+                </span>
+</div>
+</div>
+</div>
+<!-- Master Action Bar -->
+<div class="mt-8 pt-6 flex flex-col sm:flex-row items-center gap-4">
+<button class="w-full sm:w-auto flex-1 h-11 px-7 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary hover:text-on-primary transition-all font-label-md text-label-md flex items-center justify-center gap-2 shadow-sm" type="button">
+<span>Explore Full Gallery &amp; Build This Look</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+<button class="w-full sm:w-auto h-11 px-5 rounded-full bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-all font-label-md text-label-md flex items-center justify-center gap-2 shadow-sm" type="button">
+<span class="material-symbols-outlined text-primary text-[18px]">bookmark_add</span>
+<span>Save Palette</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Secondary Gallery Grid: 4 Large Editorial Story Cards -->
+<section class="w-full max-w-[1440px] mx-auto px-gutter mb-space-3xl">
+<div class="flex items-end justify-between mb-8">
+<div>
+<span class="font-label-caps text-label-caps text-primary tracking-[0.2em] uppercase">Featured Dossiers</span>
+<h3 class="font-headline-md text-headline-md text-on-surface tracking-tight mt-1">Curated Production Archive</h3>
+</div>
+<div class="hidden sm:flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sort by:</span>
+<button class="font-label-sm text-label-sm text-on-surface underline font-semibold">Seasonal Relevance</button>
+</div>
+</div>
+<!-- Editorial Card Mosaic -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- Dossier Card 1: Hôtel de Crillon -->
+<article class="gallery-card group bg-surface-container-lowest rounded-xl p-5 md:p-6 shadow-sm flex flex-col justify-between transition-all duration-300 hover:shadow-md">
+<div>
+<!-- Image Presentation with Inset Radii -->
+<div class="relative h-72 md:h-80 w-full rounded-lg overflow-hidden mb-5">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Grand Baroque ballroom wedding table styling at Hotel de Crillon in Paris. Lofty gilded boiserie walls, antique mirrors, tall tapered burgundy candles, cream ranunculus and trailing jasmine. Opulent French aristocratic ambience, cinematic warm interior lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCId31ZfO3BOmqbs3UW_irm43WVSVm8dz9FXYRThm4cqiT9DWMt0NF1bktcYoIY0rstM0i7oKOcUt-87voni48Uy6ZWfjZnoXfRckDPuHcleIaI17XlvoTEcubDRBHySjol3g893Imb6RMoI5elX57_cIf5HqMpECpvlrAEr9cX87BNyYugWNf2aQKIL4dxHkggWXGlvZyCR9dR-oX4x0FteQ9PkLhLP_xHE9O7f0b6Bd9jBR71nY9-Bg')">
+</div>
+<div class="absolute top-3 left-3">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 backdrop-blur-md text-on-surface font-label-caps text-label-caps uppercase shadow-sm">
+                Historic Château
+              </span>
+</div>
+<div class="absolute top-3 right-3">
+<span class="px-3 py-1 rounded-full bg-inverse-surface/80 text-inverse-on-surface font-label-caps text-label-caps backdrop-blur-md">
+                Autumn 2024
+              </span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex justify-between items-center text-surface-bright drop-shadow">
+<span class="font-label-sm text-label-sm bg-inverse-surface/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+                Place de la Concorde, Paris
+              </span>
+<span class="font-label-sm text-label-sm bg-inverse-surface/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+                240 Guests
+              </span>
+</div>
+</div>
+<!-- Text Hierarchy -->
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-wider uppercase">Salon des Aigles</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Full Buyout</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+            Baroque Romance at Hôtel de Crillon, Paris
+          </h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 line-clamp-2">
+            Layered antiqued mirror tables, cascading garden roses in hand-blown smoked glassware, and 24-karat gold-rimmed vintage charger plates framing a grand Parisian ballroom.
+          </p>
+<!-- Photo Tags Collection -->
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#BaroqueOpulence</span>
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#SmokedGlass</span>
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#GildedTablescape</span>
+</div>
+</div>
+<!-- Financial Breakdown & Quick Action -->
+<div class="mt-6 pt-5 bg-surface-container-low/70 -mx-5 md:-mx-6 -mb-5 md:-mb-6 p-5 md:p-6 rounded-b-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">$34,500</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Est. Production Styling</span>
+</div>
+<p class="font-label-sm text-label-sm text-primary">Includes 40 Tablescapes &amp; Velvet Drapes</p>
+</div>
+<button class="moodboard-extract-btn inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full bg-surface-container-lowest text-on-surface hover:bg-inverse-surface hover:text-inverse-on-surface font-label-md text-label-md transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary">auto_awesome</span>
+<span>Extract to Moodboard</span>
+</button>
+</div>
+</article>
+<!-- Dossier Card 2: Cotswolds Glasshouse -->
+<article class="gallery-card group bg-surface-container-lowest rounded-xl p-5 md:p-6 shadow-sm flex flex-col justify-between transition-all duration-300 hover:shadow-md">
+<div>
+<!-- Image Presentation -->
+<div class="relative h-72 md:h-80 w-full rounded-lg overflow-hidden mb-5">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Victorian iron and glass conservatory wedding dining area in the English Cotswolds countryside. Long rustic lime-washed oak refectory tables adorned with meadow wildflowers, organic linen runners, flickering church candles, and suspended botanical garlands under glass ceilings." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD6RRm4CHaQdwVu6G08a-TFoMRFCnxtwxt53FPRIYhiybRyq1C_iTvEtn20ccgqWdxYQrH1kbbBThUFyu0faQ_78plZXrkUSsuR7vHLqJbalnkx0bKYwbHWbwsLkgvJyeKSR5LZvd6NSBZQbRlLGYza0tWaQ-kVMZPoHAEIpvLGX5nbi_BwTtbXKfbcSqDN6kEbe2xkkAmMZv14pQSWUoODz0DDM_vSpIQ5pZzX91h4F4kHCxmpeNDGKQ')">
+</div>
+<div class="absolute top-3 left-3">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 backdrop-blur-md text-on-surface font-label-caps text-label-caps uppercase shadow-sm">
+                Orangeries &amp; Conservatories
+              </span>
+</div>
+<div class="absolute top-3 right-3">
+<span class="px-3 py-1 rounded-full bg-inverse-surface/80 text-inverse-on-surface font-label-caps text-label-caps backdrop-blur-md">
+                Summer 2024
+              </span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex justify-between items-center text-surface-bright drop-shadow">
+<span class="font-label-sm text-label-sm bg-inverse-surface/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+                Gloucestershire, England
+              </span>
+<span class="font-label-sm text-label-sm bg-inverse-surface/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+                180 Guests
+              </span>
+</div>
+</div>
+<!-- Text Hierarchy -->
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-wider uppercase">Daylesford Valley</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Estate Pavilion</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+            Cotswolds Glasshouse &amp; Wildflower Pavilion
+          </h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 line-clamp-2">
+            Lush British meadow installations with delphiniums, sweet peas, and bespoke iron arbor structures echoing the heritage Victorian glasshouse framework.
+          </p>
+<!-- Photo Tags Collection -->
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#BotanicalConservatory</span>
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#EnglishWildflowers</span>
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#WashedOak</span>
+</div>
+</div>
+<!-- Financial Breakdown & Quick Action -->
+<div class="mt-6 pt-5 bg-surface-container-low/70 -mx-5 md:-mx-6 -mb-5 md:-mb-6 p-5 md:p-6 rounded-b-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">$28,900</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Est. Production Styling</span>
+</div>
+<p class="font-label-sm text-label-sm text-primary">Refectory Tables &amp; Pavilion Rigging</p>
+</div>
+<button class="moodboard-extract-btn inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full bg-surface-container-lowest text-on-surface hover:bg-inverse-surface hover:text-inverse-on-surface font-label-md text-label-md transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary">auto_awesome</span>
+<span>Extract to Moodboard</span>
+</button>
+</div>
+</article>
+<!-- Dossier Card 3: Brutalist Monochrome The Glass House -->
+<article class="gallery-card group bg-surface-container-lowest rounded-xl p-5 md:p-6 shadow-sm flex flex-col justify-between transition-all duration-300 hover:shadow-md">
+<div>
+<!-- Image Presentation -->
+<div class="relative h-72 md:h-80 w-full rounded-lg overflow-hidden mb-5">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Minimalist high fashion wedding reception at a modern architectural glass and concrete pavilion in New York during winter. Black travertine communal dining tables, sharp geometric chrome candleholders, stark white calla lilies, polished concrete floors and floor to ceiling snow views." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBcnNSL_B161s_P9aWazx8np11I3-FGYlEtb_r0u70gVzPNQ4621calf5gtLfSe0G2DY71hSXjnUMuiCRSmmQsvq9n1t3vnMEYX-rFPH6ghxHnVezJyuVRiDCE-vwEmV8yP7zjMWYOcXasvdgYC07D608ku5pZ7U8lqtOsp9TOX0U1kYla2sI0Bhu-n2LwHoRmWGgNZVC2-MPamOJyw7fZUdtWMXeR6bGI9zQtX_6J00nKMut_-67L58A')">
+</div>
+<div class="absolute top-3 left-3">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 backdrop-blur-md text-on-surface font-label-caps text-label-caps uppercase shadow-sm">
+                Metropolitan Lofts
+              </span>
+</div>
+<div class="absolute top-3 right-3">
+<span class="px-3 py-1 rounded-full bg-inverse-surface/80 text-inverse-on-surface font-label-caps text-label-caps backdrop-blur-md">
+                Winter 2024
+              </span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex justify-between items-center text-surface-bright drop-shadow">
+<span class="font-label-sm text-label-sm bg-inverse-surface/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+                Hudson Valley, New York
+              </span>
+<span class="font-label-sm text-label-sm bg-inverse-surface/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+                120 Guests
+              </span>
+</div>
+</div>
+<!-- Text Hierarchy -->
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-wider uppercase">Linear Pavilions</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Modernist Sanctum</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+            Brutalist Monochrome Wedding at The Glass House, NY
+          </h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 line-clamp-2">
+            Sharp architectural minimalism celebrating poured concrete, polished graphite stemware, matte black flatware, and stark sculptural florals against a snowbound forest.
+          </p>
+<!-- Photo Tags Collection -->
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#MonochromeEditorial</span>
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#BlackTravertine</span>
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#ModernistWinter</span>
+</div>
+</div>
+<!-- Financial Breakdown & Quick Action -->
+<div class="mt-6 pt-5 bg-surface-container-low/70 -mx-5 md:-mx-6 -mb-5 md:-mb-6 p-5 md:p-6 rounded-b-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">$24,200</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Est. Production Styling</span>
+</div>
+<p class="font-label-sm text-label-sm text-primary">Travertine Plinths &amp; Custom Chrome</p>
+</div>
+<button class="moodboard-extract-btn inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full bg-surface-container-lowest text-on-surface hover:bg-inverse-surface hover:text-inverse-on-surface font-label-md text-label-md transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary">auto_awesome</span>
+<span>Extract to Moodboard</span>
+</button>
+</div>
+</article>
+<!-- Dossier Card 4: Tuscan Olive Grove -->
+<article class="gallery-card group bg-surface-container-lowest rounded-xl p-5 md:p-6 shadow-sm flex flex-col justify-between transition-all duration-300 hover:shadow-md">
+<div>
+<!-- Image Presentation -->
+<div class="relative h-72 md:h-80 w-full rounded-lg overflow-hidden mb-5">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Enchanting outdoor evening wedding dinner among ancient gnarled olive trees in Tuscany Italy. Endless banquet table with raw terracotta vessels, hundreds of ivory pillar candles glowing in the dark, fresh rosemary sprigs, linen napery, and subtle overhead fairy light canopies. Warm Mediterranean twilight." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBZZZSYorSHW6EsUXLr14iznTSZnBu3KJojzvRkbxJ6c55J3-Kmi9FWC8dpG10qz8Ohx3NntyFdwaijO_XoKhwyBaFR7DvM-RJJ88xT8IB6YaFMaDMB6kG21DZgWqQOT_vet5QhlEX0bYXQ_2yy5DR2fpC40RfVWtCIE_zkwZt4f7LR3oD1zsn2xFOqlXCFibKcZ4Uwh0tyIU1hZSZ4x0E9HGqAnvxRx9d2iE2G3xWY3_-ds0LfHALxBA')">
+</div>
+<div class="absolute top-3 left-3">
+<span class="px-3 py-1 rounded-full bg-surface-bright/90 backdrop-blur-md text-on-surface font-label-caps text-label-caps uppercase shadow-sm">
+                Lakeside Estates
+              </span>
+</div>
+<div class="absolute top-3 right-3">
+<span class="px-3 py-1 rounded-full bg-inverse-surface/80 text-inverse-on-surface font-label-caps text-label-caps backdrop-blur-md">
+                Spring 2024
+              </span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex justify-between items-center text-surface-bright drop-shadow">
+<span class="font-label-sm text-label-sm bg-inverse-surface/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+                Val d'Orcia, Tuscany
+              </span>
+<span class="font-label-sm text-label-sm bg-inverse-surface/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+                210 Guests
+              </span>
+</div>
+</div>
+<!-- Text Hierarchy -->
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-wider uppercase">Borgo Santo Pietro</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Private Grove</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+            Tuscan Olive Grove &amp; Candlelit Banquet
+          </h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 line-clamp-2">
+            A continuous 90-meter wooden imperial table meandering under century-old olive branches, illuminated by 400 hand-poured tallow candles in unglazed terracotta.
+          </p>
+<!-- Photo Tags Collection -->
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#TuscanNocturne</span>
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#RawTerracotta</span>
+<span class="font-label-caps text-label-caps px-2.5 py-1 rounded-full bg-surface-container-low text-tertiary">#ImperialTable</span>
+</div>
+</div>
+<!-- Financial Breakdown & Quick Action -->
+<div class="mt-6 pt-5 bg-surface-container-low/70 -mx-5 md:-mx-6 -mb-5 md:-mb-6 p-5 md:p-6 rounded-b-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">$31,800</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Est. Production Styling</span>
+</div>
+<p class="font-label-sm text-label-sm text-primary">Candle Rigs &amp; 90m Continuous Linens</p>
+</div>
+<button class="moodboard-extract-btn inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full bg-surface-container-lowest text-on-surface hover:bg-inverse-surface hover:text-inverse-on-surface font-label-md text-label-md transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary">auto_awesome</span>
+<span>Extract to Moodboard</span>
+</button>
+</div>
+</article>
+</div>
+</section>
+<!-- Curatorial Methodology & Regional Distribution Section -->
+<section class="w-full bg-surface-container-low py-space-2xl">
+<div class="max-w-[1440px] mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-5 space-y-4">
+<span class="font-label-caps text-label-caps text-primary tracking-[0.2em] uppercase">Production Scope</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">The Precision of Bespoke Architecture</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Every production detailed in our archive represents an original spatial study. From seismic-safe historic fresco hangings in Northern Italy to weather-tight temporary glass pavilions across the British highlands, our logistics atelier pairs museum-grade curation with turnkey execution.
+          </p>
+<div class="pt-2 flex items-center gap-8">
+<div>
+<p class="font-headline-lg text-headline-lg text-on-surface">100%</p>
+<p class="font-label-caps text-label-caps text-on-surface-variant">Heritage Compliance</p>
+</div>
+<div class="h-10 w-[1px] bg-outline-variant/50"></div>
+<div>
+<p class="font-headline-lg text-headline-lg text-primary">48h</p>
+<p class="font-label-caps text-label-caps text-on-surface-variant">Look Extraction Time</p>
+</div>
+<div class="h-10 w-[1px] bg-outline-variant/50"></div>
+<div>
+<p class="font-headline-lg text-headline-lg text-on-surface">Zero</p>
+<p class="font-label-caps text-label-caps text-on-surface-variant">Single-Use Plastic</p>
+</div>
+</div>
+</div>
+<!-- Inline SVG Architectural Cadence Chart -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-6 md:p-8 rounded-xl shadow-sm">
+<div class="flex items-center justify-between mb-6">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Seasonal Breakdown By Region</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">2024–2025 Archive Volume</h4>
+</div>
+<span class="font-label-sm text-label-sm px-3 py-1 rounded-full bg-surface-container text-on-surface">Live Ledger</span>
+</div>
+<!-- Pure Inline SVG Data Visualization Under 2KB -->
+<div class="w-full">
+<svg class="w-full h-auto text-primary" fill="none" viewbox="0 0 540 180" xmlns="http://www.w3.org/2000/svg">
+<!-- Grid rules -->
+<line stroke="currentColor" stroke-dasharray="3 3" stroke-opacity="0.1" x1="40" x2="520" y1="20" y2="20"></line>
+<line stroke="currentColor" stroke-dasharray="3 3" stroke-opacity="0.1" x1="40" x2="520" y1="65" y2="65"></line>
+<line stroke="currentColor" stroke-dasharray="3 3" stroke-opacity="0.1" x1="40" x2="520" y1="110" y2="110"></line>
+<line stroke="currentColor" stroke-opacity="0.2" x1="40" x2="520" y1="155" y2="155"></line>
+<!-- Bar Group 1: Lake Como -->
+<rect fill="#755a21" height="117" rx="6" width="34" x="70" y="38"></rect>
+<text fill="#645d56" font-family="Inter" font-size="10" text-anchor="middle" x="87" y="172">Como</text>
+<text fill="#1b1c1a" font-family="Inter" font-size="10" font-weight="600" text-anchor="middle" x="87" y="30">38%</text>
+<!-- Bar Group 2: Paris -->
+<rect fill="#b89758" height="100" rx="6" width="34" x="160" y="55"></rect>
+<text fill="#645d56" font-family="Inter" font-size="10" text-anchor="middle" x="177" y="172">Paris</text>
+<text fill="#1b1c1a" font-family="Inter" font-size="10" font-weight="600" text-anchor="middle" x="177" y="47">27%</text>
+<!-- Bar Group 3: Cotswolds -->
+<rect fill="#755a21" height="75" opacity="0.8" rx="6" width="34" x="250" y="80"></rect>
+<text fill="#645d56" font-family="Inter" font-size="10" text-anchor="middle" x="267" y="172">Cotswolds</text>
+<text fill="#1b1c1a" font-family="Inter" font-size="10" font-weight="600" text-anchor="middle" x="267" y="72">19%</text>
+<!-- Bar Group 4: New York -->
+<rect fill="#b89758" height="50" opacity="0.75" rx="6" width="34" x="340" y="105"></rect>
+<text fill="#645d56" font-family="Inter" font-size="10" text-anchor="middle" x="357" y="172">New York</text>
+<text fill="#1b1c1a" font-family="Inter" font-size="10" font-weight="600" text-anchor="middle" x="357" y="97">11%</text>
+<!-- Bar Group 5: Provence & Tuscany -->
+<rect fill="#755a21" height="30" opacity="0.5" rx="6" width="34" x="430" y="125"></rect>
+<text fill="#645d56" font-family="Inter" font-size="10" text-anchor="middle" x="447" y="172">Tuscany</text>
+<text fill="#1b1c1a" font-family="Inter" font-size="10" font-weight="600" text-anchor="middle" x="447" y="117">5%</text>
+</svg>
+</div>
+<div class="mt-4 flex items-center justify-between pt-4">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Archived production blueprints available upon verified client login.</span>
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-1" data-path="client-portal" href="#">
+<span>Client Vault</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Floating Proposal Summary Bar Docked Bottom Center -->
+<aside class="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 w-[92%] max-w-[860px] bg-surface-bright/95 backdrop-blur-xl rounded-full px-5 py-3 shadow-xl flex items-center justify-between gap-4 transition-all" id="proposalSummaryBar">
+<div class="flex items-center gap-4 min-w-0">
+<div class="w-9 h-9 rounded-full bg-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary text-[18px]">bookmark_heart</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-caps text-label-caps text-primary uppercase tracking-wider">Curation Clipboard</p>
+<p class="font-label-md text-label-md text-on-surface font-semibold truncate" id="clipboardSummaryText">
+<span id="itemsSelectedCount">3</span> Curated Galleries Selected
+        </p>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<div class="hidden sm:flex flex-col text-right">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Cumulative Est. Range</span>
+<span class="font-label-md text-label-md font-bold text-on-surface" id="totalEstimatePrice">$94,900 USD</span>
+</div>
+<a class="h-10 px-5 rounded-full bg-inverse-surface text-inverse-on-surface hover:bg-primary-container hover:text-on-primary transition-all font-label-md text-label-md flex items-center gap-2 shadow-sm" data-path="moodboard-to-quote" href="#">
+<span>Proceed to Proposal</span>
+<span class="material-symbols-outlined text-[16px]">east</span>
+</a>
+</div>
+</aside>
+<!-- Script for Dynamic Filtering & Moodboard Extraction Micro-Interactions -->
+<script>
+    (function() {
+      // Category Filter Chips
+      const filterChips = document.querySelectorAll('#categoryFilterContainer .filter-chip');
+      filterChips.forEach(chip => {
+        chip.addEventListener('click', () => {
+          filterChips.forEach(c => {
+            c.classList.remove('bg-inverse-surface', 'text-inverse-on-surface');
+            c.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+          });
+          chip.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+          chip.classList.add('bg-inverse-surface', 'text-inverse-on-surface');
+        });
+      });
+
+      // Extract to Moodboard interactive counters
+      let count = 3;
+      let basePrice = 94900;
+      const countEl = document.getElementById('itemsSelectedCount');
+      const priceEl = document.getElementById('totalEstimatePrice');
+      const extractBtns = document.querySelectorAll('.moodboard-extract-btn');
+
+      extractBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          const isAdded = this.getAttribute('data-added') === 'true';
+          
+          if (!isAdded) {
+            count += 1;
+            basePrice += 12500;
+            this.setAttribute('data-added', 'true');
+            this.classList.remove('bg-surface-container-lowest', 'text-on-surface');
+            this.classList.add('bg-primary', 'text-on-primary');
+            this.innerHTML = '<span class="material-symbols-outlined text-[16px]">check</span><span>Added to Board</span>';
+          } else {
+            count = Math.max(1, count - 1);
+            basePrice = Math.max(34500, basePrice - 12500);
+            this.setAttribute('data-added', 'false');
+            this.classList.add('bg-surface-container-lowest', 'text-on-surface');
+            this.classList.remove('bg-primary', 'text-on-primary');
+            this.innerHTML = '<span class="material-symbols-outlined text-[16px] text-primary">auto_awesome</span><span>Extract to Moodboard</span>';
+          }
+
+          if (countEl) countEl.innerText = count;
+          if (priceEl) priceEl.innerText = '$' + basePrice.toLocaleString() + ' USD';
+        });
+      });
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-3xl"><div class="max-w-[1440px] mx-auto px-gutter py-space-xl flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex items-center gap-3"><span class="font-headline-sm text-headline-sm text-on-surface">L'ÉTOILE</span><span class="text-outline-variant">•</span><span class="font-body-sm text-body-sm text-on-surface-variant">Curated Wedding Design &amp; Production Platform</span></div><div class="flex flex-wrap items-center justify-center gap-6"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms" href="#">Terms</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy" href="#">Privacy</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="concierge-support" href="#">Concierge Support</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="client-portal" href="#">Client Portal</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="press" href="#">Press</a></div></div></footer></body></html>
